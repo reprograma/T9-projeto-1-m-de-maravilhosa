@@ -3,10 +3,10 @@ T9 | Front-end | 2020 | Semana 4 | Projeto 1 - M de Maravilhosa
 Professora: Priscila Theodoro
 
 ## Agenda da Semana
-- **30/03**: Apresentação, Introdução ao projeto e Revisão da semana.
-- **31/03**: Planejar e Codar.
-- **01/04**: Como está seu projeto? Tem dúvidas? / Codar
-- **02/04**: Codar e envios de PullRequest.
+- **31/03**: Apresentação, Introdução ao projeto e Revisão da semana.
+- **01/04**: Planejar e Codar.
+- **02/04**: Como está seu projeto? Tem dúvidas? / Codar
+- **03/04**: Codar e envios de PullRequest.
 - **03/04**: Finalização e Apresentação.
 
 ## Projeto
