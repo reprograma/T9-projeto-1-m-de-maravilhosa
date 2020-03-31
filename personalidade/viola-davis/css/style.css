@@ -1,0 +1,77 @@
+
+
+.header{
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(245, 52, 245, 0.589)), url(../img/vd-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+
+}
+
+.navbar{
+    background-color: #674582;
+    width: 100%;
+    height: 75px;
+    
+  
+}
+
+.navbar__item{
+    list-style: none;
+}
+
+a{
+    list-style: none;
+}
+
+h2{
+    text-aling: center;
+}
+
+.viola__one{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-left: 169px;
+    margin-bottom: 20px;
+}
+    
+}
+
+.viola__one--about{
+    width: 56%;
+    margin-left: 43px;
+}
+
+.viola__about--img{
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.viola__two{
+    text-align: center;  
+    background: red;
+    width: 39%;
+    margin: auto;
+    padding: 59px;
+    box-sizing: border-box;
+    border: red 2px solid;
+}
+
+.viola__three{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.author{
+    background-color: rgb(171, 91, 195);
+    width: 100%;
+    display: inline-block;
+    height: 144px;
+}
