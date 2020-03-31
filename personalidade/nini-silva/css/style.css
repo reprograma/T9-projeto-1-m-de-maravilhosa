@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box ;
+}
+html {
+    font-size: 10px;
+
+}
+
+body {
+    font-family: 'Montserrat, Arial, Helvetica, sons-serit';
+    margin: 0;
+}
+
+a {
+    text-decoration:none;
+    calor:inherit;
+}
+
+ul{
+    padding: 0;
+}
+
+li {
+    list-style:none;
+    padding: 1.5rem
+}
+
+.img-responsive{
+    widows: 100%;;
+}
+
+.navBar {
+    background-color: #674582;
+    color: white;
+    padding: 1.5ren;
+    width: 100%;
+}
+
+.navBar_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
