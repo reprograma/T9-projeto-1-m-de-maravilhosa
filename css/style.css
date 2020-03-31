@@ -203,17 +203,18 @@ li {
 .maravilhosas__perfil {
   max-width: 120px;
   margin: 2rem;
+  
 }
 
 .maravilhosas__perfil img {
   background-color: #63458a;
   border-radius: 10px;
+  
 }
 
 .maravilhosas__perfil a img {
   transition: all .5s;
 }
-
 
 .maravilhosas__perfil a:hover {
   text-decoration: underline;
