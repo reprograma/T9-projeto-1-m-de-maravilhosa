@@ -1,0 +1,12 @@
+.header-personalidade {
+padding: 0 20rem;
+display: flex;
+min-height: 300px;
+
+align-items: flex-end;
+}
+
+.header-personalidade__titulo {
+font-size: 3.5rem;
+text-align: center;
+}

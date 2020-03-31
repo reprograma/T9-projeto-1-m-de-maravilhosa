@@ -293,7 +293,6 @@ li {
   text-align: center;
 }
 
-
 /*** MEDIA QUERIES ***/
 /* TABLET */
 @media (min-width: 768px) {
@@ -379,7 +378,7 @@ li {
     .rodape__navegacao > li {
         font-size: 1.5rem;;
     }
-    /** PERSONALIDADE **/
+
     /* --- OUTRA HEADER --- */
     .header-personalidade {
         padding: 0 20rem;
