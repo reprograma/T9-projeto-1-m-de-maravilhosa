@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+    width: 100%;
+  }
+  
+/* --- NAV --- */
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-height: 132px;
+}
+
+
+.container {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__itens {
+    width: 80%;
+    background-color: #674582;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navegação__redes-sociais__link {
+    max-width: 44px;
+}
+
+.navegacao__menu-hamburguer img {
+  background-color: #C083B9;
+  border-radius: 5px;
+  display: none;
+}
+
+.navegacao__nav {
+    padding: 1rem;
+}
+
+.navegacao__nav__lista {
+    display: flex;
+}
+
+.navegacao__nav__lista__elemento {
+    margin: 10px;
+}
+
+.icone {
+    margin: 0.1rem;
+    max-width: 32px;
+}
+
+/* --- HEADER --- */
+header {
+    height: 500px;
+    width: auto%;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/home-personalidade-chelsea-manning.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#header__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 6.8rem;
+    color: #FFFFFF;    
+    text-transform: uppercase;
+    align-self: flex-end;
+    text-align: center;
+}
