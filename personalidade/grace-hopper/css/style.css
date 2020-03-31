@@ -28,16 +28,30 @@ li {
   width: 100%;
 }
 
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
 .nav {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav__box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    background-color: #674582;
+    width: 90%;
 }
-
 .nav__img {
-    width: 60%;
+    max-width: 200px;
 }
 
 .menu {
@@ -45,5 +59,145 @@ li {
 }
 
 .menu__hambuguer {
-    display: block;
+  border-radius: 5px;
 }
+
+.header {
+    min-height: 80vh;
+    max-height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/grace-hopper-perfil.jpg) no-repeat center center / cover;
+    display:flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
+
+.header__title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about__title {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.about__img {
+    max-width: 120px;
+    border-radius: 8px;
+    
+}
+
+.about__paragraph {
+    color: #674582;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.quote {
+    color: #674582;
+    border: 1px solid #674582;
+    font-size: 1.2rem;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history__title {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: #674582;
+}
+
+.history__paragraph {
+    color: #674582;
+    font-size: 1.4rem;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.history__img {
+    width: 80%;
+}
+
+/* --- FOOTER --- */
+.footer {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .footer__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .footer__menu a:hover {
+    color: #C083B9;
+  }
+  
+  .footer__logo__img {
+    max-width: 200px;
+  }
+  
+  .footer__mediasocial a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .footer__mediasocial a:hover {
+    color: #C083B9;
+  }
+  
+  .footer__mediasocial img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .footer__mediasocial span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .footer__text {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
