@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* ------DESKTOP FIRST ------ */
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    width: 100%;
+    justify-content: space-around;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.navegacao__box {
+    display: flex;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__itens {
+    display: flex;
+    flex-direction: row;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__nav {
+    display: flex;
+}
+
+.navegacao__menu-hamburguer {
+    display: none;
+}
+
+
+/* --- HEADER --- */
+
+
+
+@media screen and (max-width: 800px) {
+
+    .navegacao__menu-hamburguer {
+        display: block;
+    }
+
+    .navegacao__itens {
+        display: none;
+    }
+}
