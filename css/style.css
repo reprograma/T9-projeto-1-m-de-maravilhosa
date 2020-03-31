@@ -38,6 +38,12 @@ li {
 .img-responsive {
   width: 100%;
 }
+.img_home {
+  position: absolute;
+  width: 201px;
+  height: 211px;
+
+}
 
 /* define o tamanho da caixa */
 .container {
@@ -162,7 +168,7 @@ li {
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(../img/bg-banner-claro.png);
+                url(../../img/bg-banner-claro.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -182,6 +188,9 @@ li {
   font-weight: 300;
   margin: 2rem 0 3rem 0;
   font-size: 1.5rem;
+}
+h1{
+  font-size: 50px;
 }
 
 /* --- SECTION MARAVILHOSAS --- */
