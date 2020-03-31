@@ -1,0 +1,121 @@
+* {
+box-sizing: border-box;
+text-align: center;
+font-size: 18px;
+line-height: 47px;
+font-family: Roboto Slab;
+color:  #674582;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navegacao__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+}
+.header {
+    min-height: 80vh;
+    height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(imagens/de\ baixo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+/*    padding: 11rem 2rem 5rem 2rem;*/
+}
+
+.principal__titulo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    position: absolute;
+    width: 600px;
+    height: 88px;
+    left: 660px;
+    top: 527px;
+}
+
+.descricao1{
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #63458A;
+}
+
+.ftformiga1{
+    position: absolute;
+    width: 210px;
+    height: 216px;
+    left: 380px;
+    top: 822px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+  }
+
+  .navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+
+  .navegacao__redes-sociais a {
+    margin: 0 1rem;
+  }
+
+  .navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+  }
+
+  .navegacao__itens li > a {
+    transition: all .2s;
+  }
