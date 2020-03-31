@@ -39,7 +39,7 @@ li {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    max-height: 132px;
+    max-height: 100px;
 }
 
 
@@ -55,10 +55,11 @@ li {
 }
 
 .navegacao__itens {
-    width: 80%;
+    width: 70%;
     background-color: #674582;
     text-align: center;
     padding: 2rem;
+    margin-right: 2rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -93,8 +94,8 @@ li {
 
 /* --- HEADER --- */
 header {
-    height: 500px;
-    width: auto%;
+    height: 300px;
+    width: 100%;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
                 url(../img/home-personalidade-chelsea-manning.jpg);
@@ -108,9 +109,42 @@ header {
 #header__title {
     text-align: center;
     font-weight: 700;
-    font-size: 6.8rem;
+    font-size: 4.2rem;
     color: #FFFFFF;    
     text-transform: uppercase;
     align-self: flex-end;
     text-align: center;
+}
+
+main {
+    background: #E5E5E5;
+}
+
+article {
+    margin: 0% 15%;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+.container__text {
+    margin: 2rem;
+    color: brown;
+    padding: 3rem;
+}
+
+#free-chelsea__img {
+    width: 70%;
+    max-height: 100px;
+    filter: grayscale(60%);
+    margin: 1rem; 
+}
+
+#female__img {
+    max-width: 100px;
+    display: none;
 }
