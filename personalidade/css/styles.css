@@ -45,7 +45,7 @@ li {
     border-radius: 5px;
     font-size: 1.8rem;
   }
-  
+  /*
   .btn_roxo {
     color: white;
     background-color: #C083B9;
@@ -69,8 +69,8 @@ li {
   }
   
   .btn_center {
-    margin: 0 auto;
-  }
+    margin: 0 auto; 
+  } */
   
   /* --- NAV --- */
   .navegacao {
@@ -101,7 +101,6 @@ li {
     right: -700px;
     top: 85px;
     width: 100%;
-    background-color: #674582;
     text-align: center;
     padding: 3rem 0;
     transition: right 1s;
@@ -112,7 +111,6 @@ li {
     right: 0;
     top: 85px;
     width: 100%;
-    background-color: #674582;
     text-align: center;
     padding: 3rem 0;
     transition: right 1s;
@@ -125,12 +123,12 @@ li {
   .navegacao__itens li > a:hover {
     color: #C083B9;
   }
-  
+  /*
   .navegacao__menu-hamburguer img {
     background-color: #C083B9;
     border-radius: 5px;
-  }
-  
+  }*/
+  /*
   .navegacao__nav {
     margin-bottom: 3rem;
     margin-right: 2rem;
@@ -143,7 +141,7 @@ li {
   
   .navegacao__redes-sociais a {
     margin: 0 1rem;
-  }
+  } */
   
   
   /* --- HEADER --- */
@@ -165,7 +163,7 @@ li {
   .principal__titulo {
     text-align: center;  
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 5.2rem;
     font-weight: 900;
   }
   
@@ -176,7 +174,7 @@ li {
   }
   
   /* --- SECTION MARAVILHOSAS --- */
-  .maravilhosas__titulo {
+  /*.maravilhosas__titulo {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     color: #63458a;
     font-size: 2rem;
@@ -212,8 +210,85 @@ li {
   
   .maravilhosas__perfil a:hover img {
     box-shadow: 0 3px 10px rgba(0,0,0,.2);
+  } */
+  /* MAIN --*/
+  .conteudo {
+    color: #674582;
   }
   
+  .conteudo__perfil {
+   margin: 40px 0;
+   display: flex;
+   align-items: center;
+  }
+
+  .foto__perfil {
+    border-radius: 10px;
+    width: 200px;
+  }
+
+  .paragrafo__perfil {
+    max-width: 60%;
+    margin: 0 45px;
+  }
+  
+  h3 {
+    font-size: 2.1rem;
+    margin: 20px;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+
+  .conteudo__citacao {
+    border: 3px solid #C083B9;
+    padding: 50px;
+    line-height: 40px;
+    font-size: 1.2rem;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .conteudo__historia-imagem {
+    background: url(../../img/home-personalidade/silviac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin: 40px 0;
+  }
+
+  .conteudo__autora {
+    max-width: 100%;
+    background-color: #C083B9;
+    
+  }
+  
+  .container__conteudo-autora {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .foto {
+    width: 200px;
+  }
+  
+  .colunm__autora {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .conteudo__autora-paragrafo {
+    font-weight: bold;
+    text-align: left;
+  }
+
   /* --- FOOTER --- */
   .rodape {
     background-color: #323534;
@@ -289,6 +364,15 @@ li {
   /* TABLET */
   @media (min-width: 768px) {
       /* --- NAV --- */
+    /* .conteudo__perfil {
+        display: flex;
+        flex-direction: colunm;
+      }
+
+      .paragrafo__perfil {
+        width: 80%;
+      } */
+      
       .navegacao__itens {
           position: static;
           display: flex;
