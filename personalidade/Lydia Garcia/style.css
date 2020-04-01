@@ -46,8 +46,6 @@ li {
   max-width: 960px;
 }
 
-
-
 /* --- NAV --- */
 .navegacao {
     background-color: #674582;
@@ -60,18 +58,15 @@ li {
     width: 100%;
     justify-content: space-around;
 }
-
 .navegacao__logo {
   max-width: 200px;
 }
-
 .navegacao__box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
 }
-
 .navegacao__itens {
   position: absolute;
   right: -700px;
@@ -82,7 +77,6 @@ li {
   padding: 3rem 0;
   transition: right 1s;
 }
-
 .navegacao__itens.ativo {
   display: block;
   right: 0;
@@ -128,16 +122,14 @@ li {
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(./img/banner-lydia.jpg);
+                url(./img/lg-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
     color: white;
-    padding: 11rem 2rem 5rem 2rem;
+    /*padding: 11rem 2rem 5rem 2rem;*/
 }
-
-
 
 .principal{
     text-transform: uppercase;
@@ -146,23 +138,103 @@ li {
 }
 .principal__titulo {
   text-transform: uppercase;
-  font-size: 9.0rem;
+  font-size: 3.5rem;
   font-weight: 900;
+}
+
+section{
+    padding: 5rem;
+    text-align: justify;
+}
+
+
+.foto-perfil {
+    display: flex;
+    margin: 0 20px;
+    max-width: 55%;
+    background-color: #63458a;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+h2 p{
+    text-align: right;
+    color: #63458a;
+}
+
+.historia {
+    font-size: 16px;
+  text-align: justify;
+  color: #63458a;
+  padding-top: 0 auto;
+  border-bottom: 0 auto;
+}
+
+/* --- SECTION CONTEÚDO ---*/
+
+
+.frase-de-impacto {
+    border: #674582 1px solid;
+    border-radius: 2px;
+    margin: 20px auto;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    width: 63vw;
+    text-align: center;
+}
+
+.historia__foto {
+    padding: 20px;
+    display: block;
+    padding: 32px;
+    width: 100%;
+    height: 300%;
+    display: flex;
+    justify-content: center;
+}
+
+.autora {
+    display: block;
+    font-size: 16px;
+    padding: 32px;
+    font-weight: 600;
+    background-color: #C083B9; 
+    width: 100%;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ver-todas-elas-btn {
+    width: 200px;
+    height: 25px;
+    background-color: #c083b9;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.ver-todas-elas-btn a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 
 
-
-
-
 /* --- FOOTER --- */
-
-
-
-
 .rodape {
   background-color: #323534;
-  color: white;
+  color:white;
   font-size: .9rem;
   display: flex;
   flex-direction: column;
@@ -231,6 +303,13 @@ li {
 
 
 
+
+
+
+
+
+
+
 /*** MEDIA QUERIES ***/
 /* TABLET */
 
@@ -269,7 +348,7 @@ li {
         display: none;
     }
 
-    /* --- HEADER --- */
+     /*--- HEADER ---*/
     .header {
         min-height: 75vh;
         text-align: center;
@@ -287,20 +366,8 @@ li {
     .principal__btn {
         margin: 0;
     }
-
-    /* --- SECTION MARAVILHOSAS --- */
-    .maravilhosas {
+    section {
         padding: 4rem 0;
-    }
-
-    .maravilhosas__box > div {
-        max-width: 200px;
-        margin: 5rem;
-    }
-
-    .maravilhosas__perfil p {
-        font-size: 1.5rem;
-        margin-top: 1rem;
     }
 
     /* --- FOOTER --- */
