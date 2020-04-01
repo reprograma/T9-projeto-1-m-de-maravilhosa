@@ -25,13 +25,29 @@ li {
     list-style: none;
 }
 
-h1 {
-    font-size: 5rem;
-    position: relative;
+main {
+    margin: 20px 20px;
+    color: #63458a;
 }
 
-main {
-    margin: 20px 100px;
+h1 {
+    color: white;
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
 }
 
 
@@ -42,29 +58,31 @@ main {
 }
 
 .foto_meio {
-    display: flex;
     max-width: 500px;
     width: 100%;
     align-self: center;
     padding: 20px;
 }
 
-.portrait {
-    max-width: 100px;
-    border-radius: 100%;
-}
-
 .intro {
     display: flex;
-    margin: 20px 30px;
 }
 
 .intro_bio {
-    color: #63458a;
-    align-content: center;
-    font-size: 1.2rem;
-    margin: 20px 30px;
+    text-align: right;
+    text-justify: distribute;
+    font-size: 1rem;
+    min-width: 100px;
     max-width: 300px;
+    letter-spacing: 0.08rem;
+    margin-left: 10px;
+}
+
+.portrait {
+    min-width: 50px;
+    max-width: 100px;
+    width: 100%;
+    border-radius: 100%;
 }
 
 
@@ -76,56 +94,25 @@ main {
     max-width: 960px;
 }
 
-header {
-    display: flex;
-    height: 500px;
-    width: 100%;
-    background: url(../img/dilma-roussef-header.jpg) no-repeat;
-}
-
-h1 {
-    display: flex;
-    color: white;
-    align-items: center;
-    padding-top: 300px;
-    padding-left: 200px;
-}
-
 
 /* --- BOTAO --- */
 
 .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_botao {
+    align-content: center;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem;
-}
-
-.btn_roxo {
     color: white;
-    background-color: #C083B9;
-    display: block;
-    max-width: 250px;
-    text-align: center;
-    transition: all .5s;
-    margin: 0 auto;
-}
-
-.btn_roxo:hover,
-.btn_roxo:focus {
-    transform: translateY(-1rem);
-    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
-    background-color: rgb(192, 156, 188);
-}
-
-.btn_roxo:active {
-    transform: translateY(-.5rem);
-    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
-}
-
-.btn_center {
-    margin: 0 auto;
+    background: plum;
+    border-radius: 4px;
+    margin: 50px 100px;
+    border: none;
+    padding: 5px 10px;
+    width: 200px;
 }
 
 
@@ -223,33 +210,42 @@ h1 {
     line-height: 3.5rem;
 }
 
+.autora {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: #63458a;
+    background: plum;
+    margin-bottom: 50px;
+    padding: 0px 100px;
+    font-size: 1.5rem;
+}
+
+.retrato__autora {
+    max-width: 120px;
+    width: 100%;
+}
+
 
 /* --- HEADER --- */
 
 .header {
     min-height: 80vh;
-    height: 500px;
-    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../img/bg-banner-claro.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../img/dilma-roussef-header.jpg) no-repeat center center;
     display: flex;
     align-items: flex-end;
     text-align: center;
     color: white;
-    /*    padding: 11rem 2rem 5rem 2rem;*/
+    width: 100%;
 }
 
-.principal__titulo {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 900;
+.central {
+    text-align: center;
 }
 
-.principal__sub {
-    font-weight: 300;
-    margin: 2rem 0 3rem 0;
-    font-size: 1.5rem;
-}
+
+/*    padding: 11rem 2rem 5rem 2rem;
 
 
 /* --- SECTION MARAVILHOSAS --- */
@@ -395,11 +391,6 @@ h1 {
         display: none;
     }
     /* --- HEADER --- */
-    .header {
-        min-height: 75vh;
-        text-align: left;
-        padding: 5rem 10rem;
-    }
     .principal__titulo {
         font-size: 2.9rem;
     }
@@ -420,6 +411,9 @@ h1 {
     .maravilhosas__perfil p {
         font-size: 1.5rem;
         margin-top: 1rem;
+    }
+    .header {
+        background-size: cover;
     }
     /* CONTEUDO PRINCIPAL */
     /* --- FOOTER --- */
@@ -450,11 +444,26 @@ h1 {
         font-size: 3.5rem;
         text-align: center;
     }
+    .intro {
+        display: flex;
+    }
+    main {
+        margin: 20px 100px;
+    }
 }
 
 @media (min-width: 1024px) {
     .principal {
         max-width: 650px;
+    }
+    .intro {
+        display: flex;
+    }
+    main {
+        margin: 20px 100px;
+    }
+    .header {
+        background-size: cover;
     }
 }
 
@@ -462,6 +471,9 @@ h1 {
 /* DESKTOP */
 
 @media (min-width: 1440px) {
+    main {
+        margin: 20px 100px;
+    }
     .navegacao__box {
         max-width: 80%;
     }
@@ -474,5 +486,8 @@ h1 {
     }
     .principal {
         max-width: 650px;
+    }
+    .intro {
+        display: flex;
     }
 }
