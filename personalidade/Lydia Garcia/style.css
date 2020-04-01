@@ -53,7 +53,7 @@ li {
     text-transform: uppercase;
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
     padding: 1.5rem;
-    z-index: 99;
+    z-index: 99; /*sobraposiçao profundidade*/
     position: fixed;
     width: 100%;
     justify-content: space-around;
@@ -87,30 +87,24 @@ li {
   padding: 3rem 0;
   transition: right 1s;
 }
-
 .navegacao__itens li > a {
   transition: all .2s;
 }
-
 .navegacao__itens li > a:hover {
   color: #C083B9;
 }
-
 .navegacao__menu-hamburguer img {
   background-color: #C083B9;
   border-radius: 5px;
 }
-
 .navegacao__nav {
   margin-bottom: 3rem;
   margin-right: 2rem;
 }
-
 .navegacao__nav li {
   font-size: 1.5rem;
   margin: 1rem;
 }
-
 .navegacao__redes-sociais a {
   margin: 0 1rem;
 }
@@ -130,7 +124,6 @@ li {
     color: white;
     /*padding: 11rem 2rem 5rem 2rem;*/
 }
-
 .principal{
     text-transform: uppercase;
     display: inline;
@@ -140,6 +133,39 @@ li {
   text-transform: uppercase;
   font-size: 3.5rem;
   font-weight: 900;
+  text-align: center;
+}
+
+
+
+
+
+/*---Foto TEXTO--*/
+
+
+
+.breve-historia {
+    display: flex;
+    max-width: 55%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.titulo{
+    color: #63458a;
+}
+
+.img_text_persona{
+    display: flex;
+}
+.text_persona{
+    margin-left: 10px;
+
+}
+
+.foto-perfil {
+    border-radius: 10px;
+    max-width: 130px;
 }
 
 section{
@@ -147,33 +173,7 @@ section{
     text-align: justify;
 }
 
-
-.foto-perfil {
-    display: flex;
-    margin: 0 20px;
-    max-width: 55%;
-    background-color: #63458a;
-    border-radius: 10px;
-    display: flex;
-}
-
-
-h2 p{
-    text-align: right;
-    color: #63458a;
-}
-
-.historia {
-    font-size: 16px;
-  text-align: justify;
-  color: #63458a;
-  padding-top: 0 auto;
-  border-bottom: 0 auto;
-}
-
 /* --- SECTION CONTEÚDO ---*/
-
-
 .frase-de-impacto {
     border: #674582 1px solid;
     border-radius: 2px;
@@ -183,7 +183,13 @@ h2 p{
     width: 63vw;
     text-align: center;
 }
-
+.historia {
+    font-size: 16px;
+    text-align: justify;
+    color: #63458a;
+    padding-top: 0 auto;
+    border-bottom: 0 auto;
+}
 .historia__foto {
     padding: 20px;
     display: block;
@@ -193,6 +199,8 @@ h2 p{
     display: flex;
     justify-content: center;
 }
+
+/*----autora-----*/
 
 .autora {
     display: block;
@@ -208,6 +216,7 @@ h2 p{
 }
 
 
+/*---botão--*/
 button {
     width: 100%;
     display: flex;
@@ -356,7 +365,8 @@ button {
     }
 
     .principal__titulo {
-        font-size: 2.9rem;
+        font-size: 3.5rem;
+        text-align: center;
     }
     
     .principal__sub {
@@ -366,8 +376,10 @@ button {
     .principal__btn {
         margin: 0;
     }
-    section {
-        padding: 4rem 0;
+    section{
+        flex-wrap: wrap;
+        padding: 5rem;
+        text-align: justify;
     }
 
     /* --- FOOTER --- */
