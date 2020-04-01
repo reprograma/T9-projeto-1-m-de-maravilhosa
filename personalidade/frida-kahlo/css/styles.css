@@ -156,9 +156,9 @@ li {
 }
 
 .header {
-    background: url(../../img/fk-bg.jpg);
-    height: 720px;
-    width: 200px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),rgba(255, 0, 255, 0.2)),no-repeat center center url(../img/fk-bg.jpg);
+  height: 720px;
+  width: 100%;
 }
 
 
