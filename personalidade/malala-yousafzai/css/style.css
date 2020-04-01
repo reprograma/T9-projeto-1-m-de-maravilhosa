@@ -172,6 +172,9 @@ li {
     padding: 11rem;
 }
 
-.container__titulo {
-    text-align: center;
+.title {
+    text-align: right;
+    display: flex;
 }
+
+
