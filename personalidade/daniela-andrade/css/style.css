@@ -39,7 +39,7 @@ li {
 
 .img-first {
     max-width: 120px;
-    border-radius: 10px;
+    border-radius: 50%;
 
 }
 
@@ -60,6 +60,7 @@ li {
     color: #63458A;
     border: 1px solid black;
     max-width: 920px;
+    padding: 10px;
 }
 
 h2 {
@@ -94,8 +95,14 @@ h3 {
 }
 .story{
     max-width: 960px;
-    display: inline-flexbox;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.div-img{
+    width: 30%;
+   
 }
 .about-me{
 display:flex;  
@@ -107,7 +114,7 @@ background: #E4B7E5;
 
 }
 .foto-me{
-    max-width: 140px;
+    max-width: 120px;
     border-radius: 3px;
 }
 .paragrafo2{
@@ -121,10 +128,29 @@ color: #63458A;
 }
 
 .img-job{
-    height: 400px;
-    width: 900px;
+    border-radius: 1%;
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 1%;
     
-    
+}
+.final-btn{
+    text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn-position{
+    padding: 60px;
+}
 }
 
 main {
@@ -203,9 +229,10 @@ main {
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
             rgba(255, 0, 255, 0.2)),
-        url(../img/banner-2.png);
+        url(../img/daniela-job.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
     display: flex;
     align-items: flex-end;
     text-align: center;
