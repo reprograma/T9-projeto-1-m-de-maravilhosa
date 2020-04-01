@@ -13,37 +13,69 @@
 .navbar{
     background-color: #674582;
     width: 100%;
-    height: 75px;
+    height: 90px;
     
   
 }
 
+.navbar__menu{
+    color: #ffffff;
+    display: flex;  
+    padding: 10px;
+}
+
 .navbar__item{
     list-style: none;
+    text-transform: uppercase;
+    padding: 5px;
+   
 }
 
-a{
-    list-style: none;
+.navbar__img{
+    width: 57%;
+    margin-top: 17px;
+    margin-left: 61px;
 }
 
-h2{
-    text-aling: center;
+.navbar__link{
+    padding: 10px;
 }
 
-.viola__one{
+.navbar__navegacao{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    margin-left: 169px;
-    margin-bottom: 20px;
-}
     
 }
 
+.navbar__navegacaooo{
+    width: 86%;
+    margin-top: 14px;
+}
+
+.navbar__navageacaoo{
+    width:50%;
+}
+a{
+    list-style: none;
+    margin-top: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+.viola__one{
+        display: flex;
+        justify-content: center;
+        width: 84%;
+        margin-bottom: 20px;
+        margin: 20px 5px 20px 20px;
+        margin-left: 157px;
+}
+
 .viola__one--about{
-    width: 56%;
-    margin-left: 43px;
+    width: 69%;
+    margin-left: 23px;
+
 }
 
 .viola__about--img{
@@ -53,19 +85,31 @@ h2{
 }
 
 .viola__two{
-    text-align: center;  
-    background: red;
-    width: 39%;
+    text-align: center;
+    width: 69%;
     margin: auto;
-    padding: 59px;
+    padding: 17px;
     box-sizing: border-box;
-    border: red 2px solid;
+    border:#674582 1px solid;
+    font-size: 27px;
+
 }
 
 .viola__three{
-    width: 80%;
+    width: 69%;
     margin: auto;
-    text-align: center;
+}
+
+.viola__p{
+    text-align: justify;
+}
+
+
+
+.viola__history{
+    width: 100%;
+    height: 317px;
+    max-width: 637px;
 }
 
 
@@ -74,4 +118,67 @@ h2{
     width: 100%;
     display: inline-block;
     height: 144px;
+}
+
+.author__img{
+    width: 100%;
+    max-width: 144px;
+}
+
+.author_title{
+    display: inline;
+}
+
+.author__box{
+    text-align: center;
+}
+
+.botao{
+    margin: auto;
+    width: 27%;
+    padding: 50px;
+}
+
+.button{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 238px;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 49px;
+    background: rgba(104, 4, 104, 0.411);
+    border-radius: 8px;
+    color: white;
+}
+
+.footer{
+    background-color: #323534;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.footer__navegacao{
+    width: 30%;
+    padding: 53px;
+    text-align: center;
+
+}
+
+.footer__item{
+    list-style: none;
+}
+
+
+.creditos{
+    background-color: #292A2A;
+    text-align: center;
+    height: 41px;
+    color: white;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 15px
 }
