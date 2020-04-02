@@ -161,20 +161,31 @@ li {
 }
 
 .header {
-    background-image: url(../img/Malala_bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    left: 0px;
-    top: 133px;
-    padding: 11rem;
+  background: linear-gradient(rgba(19, 1, 19, 0.58), rgba(90, 15, 90, 0.4)), url(../img/Malala_bg.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+  padding: 14rem
 }
 
-.title {
-    text-align: right;
-    display: flex;
+.titulo__persona {
+  position: relative;
+  left: 0px;
+  top: 146px;
 }
+
+.titulo__persona__principal {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+}
+
+
+
 
 
