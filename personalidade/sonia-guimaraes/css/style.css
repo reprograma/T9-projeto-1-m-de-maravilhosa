@@ -31,9 +31,11 @@
    display: flex;
  }
  .primeira_img{
-   width: 100%;
-   max-width: 200px;
-   background-color: seagreen;
+    max-width: 200px;
+ }
+ .primeira_img img{
+  max-width: 100%;
+
  }
  .texto_ladobio{
   width: 50%;
