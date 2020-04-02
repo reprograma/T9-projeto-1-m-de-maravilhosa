@@ -175,8 +175,9 @@ h3{
 
 .botao{
     margin: auto;
-    width: 17%;
+    width: 55%;
     padding: 50px;
+    text-align: center;
 }
 
 .button{
