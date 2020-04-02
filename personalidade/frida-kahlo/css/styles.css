@@ -158,11 +158,11 @@ li {
 
 .header {
   background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)),
-  no-repeat url(../img/fk-bg.jpg);
+  no-repeat url(../img/fk-bg.jpg)  center;
   display: flex;
   height: 508px;
   width: 100%;
-  background-position-y: 30px;
+  background-position-y: 50px;
   align-items: flex-end;
   text-align: center;
   color: white;
@@ -176,8 +176,11 @@ font-style: normal;
 font-weight: 800;
 font-size: 44px;
 line-height: 88px;
+justify-content: center;
+display: flex;
 text-align: center;
 margin: auto auto auto 40px;
+
 }
 
 .principal {
@@ -386,8 +389,13 @@ padding: 5px 40px
     display: none;
   }
 
-  .principal {
-    display: inline-block;
-  }
+  .principal__container {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .principal__mini-bio {
+     margin-left: 30px;
+   }
 }
 
