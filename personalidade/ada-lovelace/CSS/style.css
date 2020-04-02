@@ -95,6 +95,9 @@ li {
     justify-content: space-around;
 }
 
+
+
+
 .navegacao__logo {
   max-width: 200px;
 }
@@ -164,7 +167,7 @@ li {
                                 rgba(255, 0, 255, 0.2)),
                 url(../img/al-bg.png);
                 
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
@@ -229,20 +232,17 @@ li {
 .rodape {
   background-color: #323534;
   color: white;
-  font-size: .9rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: .8rem;
+  
 }
 
 .rodape__principal {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 20px;
 }
 
 .rodape__principal > * {
@@ -296,16 +296,7 @@ li {
 }
 
 
-/*** MEDIA QUERIES ***/
-/* TABLET */
-@media (min-width: 768px) {
-    /* --- NAV --- */
-    .navegacao__itens {
-        position: static;
-        display: flex;
-        padding: 0;
-        width: auto;
-    }
+
 
     .navegacao__nav {
         margin-bottom: 0;
@@ -395,10 +386,71 @@ li {
 }
 
 .caixa-lilas{
-    
+  width: 100%;
+    height: 131px;
+    display: flex;
+    justify-content: center;
+    background: rebeccapurple;
+    padding: 1rem;  
 }
 
 .bio{
+  font-size: 17px;
+  padding: 4rem;
+}
+
+.img-autora{
+  width: 110px;
+  height: 121px;;
 
 }
+
+.btn_responsivo{
+  display: flex;
+  justify-content: center;
+}
+
+.botao{
+  justify-content: center;
+  background-color: violet;
+  padding: 8px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn{
+  
+}
+
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+
+@media screen and (max-width:1024px){
+
+  .header{
+    min-height: 30vh;
+    text-align: center;
+    padding: 5rem 10rem; 
+
+  }
+
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+}
+  
+}
+
+@media screen and (max-width:375px){
+.navegacao__menu-hamburguer{
+  display: block;
+  margin: 15px;
+}
+}
+
 
