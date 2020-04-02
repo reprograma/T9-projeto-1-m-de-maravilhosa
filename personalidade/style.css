@@ -1,14 +1,19 @@
 * {
 box-sizing: border-box;
 text-align: center;
-font-size: 18px;
-line-height: 47px;
+font-size: 10px;
+line-height: 11px;
 font-family: Roboto Slab;
-color:  #674582;
+}
+
+
+li{
+    list-style: none;
+    position: relative;
 }
 
 html {
-    font-size: 10px; /* definir uma font-size padrão */
+    font-size: 10px; 
 }
 
 body {
@@ -16,25 +21,18 @@ body {
     margin: 0;
 }
 
-.navegacao__box{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 90%;
-}
 .header {
-    min-height: 80vh;
+    min-height: 100vh;
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(imagens/de\ baixo.jpg);
+                url(imagens/ftheader.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
     text-align: center;
     color: white;
-/*    padding: 11rem 2rem 5rem 2rem;*/
 }
 
 .principal__titulo{
@@ -43,11 +41,12 @@ body {
     font-weight: 800;
     font-size: 72px;
     line-height: 88px;
-    position: absolute;
+    position:-ms-page;
     width: 600px;
     height: 88px;
     left: 660px;
     top: 527px;
+    color: #FFFFFF;
 }
 
 .descricao1{
@@ -82,6 +81,8 @@ color: #63458A;
     position: fixed;
     width: 100%;
     justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
 
 .navegacao__box {
@@ -95,27 +96,337 @@ color: #63458A;
     max-width: 200px;
   }
 
-  .navegacao__box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-}
-
 .navegacao__nav {
     margin-bottom: 3rem;
     margin-right: 2rem;
+    font-size: 1.5rem;
+    margin-top: auto;
   }
 
-  .navegacao__redes-sociais a {
-    margin: 0 1rem;
-  }
+.navegacao__itens{
+transition: all .2s;
+text-align: center;
+display: flex;
+}
 
-  .navegacao__menu-hamburguer img {
-    background-color: #C083B9;
-    border-radius: 5px;
-  }
+.img-responsive{
+    max-width: 100%;
+}
 
-  .navegacao__itens li > a {
-    transition: all .2s;
-  }
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.perfil {
+    width: 201px;
+    height: 211px;
+    left: 384px;
+    top: 827px;
+    background: url(imagens/formiga.jpeg);
+    display: -webkit-box;
+}
+
+.text1 {
+    position: absolute;
+    width: 697px;
+    height: 187px;
+    left: 677px;
+    top: 833px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #63458A;
+}
+
+.parte1{
+display: flex;
+width: 100%;
+align-content: center;
+justify-content: center;
+flex-direction: row;
+}
+
+.parte1__text{
+ width: 60%;
+
+}
+
+.formiga__one{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.formiga__one--about{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+}
+
+.formiga__about{
+    width: 35%;
+}
+
+.formiga__about--img{
+    width: 100%;
+    max-width: 280px;
+}
+
+.formiga__two{
+    width: 69%;
+    margin: 10px;
+    padding: 17px;
+    box-sizing: border-box;
+    border: #674582 1px solid;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 66px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formiga__three {
+    width: 69%;
+    margin: auto;
+}
+
+.formiga__p {
+    text-align: justify;
+}
+
+h3 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #63458A;
+}
+
+.authora {
+    background-color: #E4B7E5;
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.authora__img{
+    width: 75%;
+    max-width: 144px;
+}
+
+.authora_title{
+    display: inline;
+}
+
+.authora__box{
+    text-align: center;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.botao{
+    margin: auto;
+    width: 27%;
+    padding: 50px;
+}
+
+.button{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 238px;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 49px;
+    background: #C083B9;
+    border-radius: 10px;
+    color: white;
+}
+
+.creditos{
+    background-color: black;
+    text-align: center;
+    height: 41px;
+    color: white;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.despedida--img{
+    width: 350px;
+}
+
+.descricao__authora {
+    width: 268px;
+    font-size: 11px;
+}
+
+.rodape {
+background-color: #323534;
+color: white;
+font-size: .9rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 1rem 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.rodape__logo {
+    max-width: 200px;
+}
+
+.rodape__redes-sociais {
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all .5s;
+max-width: 10px;
+margin-right: .5rem;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
