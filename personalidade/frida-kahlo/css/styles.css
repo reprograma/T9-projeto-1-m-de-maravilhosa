@@ -1,4 +1,4 @@
-/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- MOBILE FIRST - iPhone 7 - width < 700px --- */
 /* --- GERAL --- */
 /*
 unidades preferidas para esse CSS
@@ -205,6 +205,7 @@ font-size: 20px;
 line-height: 47px;
 text-align: center;
 color: #63458A;
+margin-top: 0;
 }
 
 
@@ -425,9 +426,11 @@ padding: 5px 40px
 
     .subtitulo__historia {
       text-align: left;
-      padding: 0;
-      margin-left: 30px;
-    
+     
+    }
+
+    .principal {
+      padding: 80px;
     }
    
 }
