@@ -30,7 +30,7 @@ ul {
 }
 
 li {
-    list-style: none;
+    list-style: none ;
 }
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 .img-responsive {
@@ -131,6 +131,7 @@ li {
 }
   
   .navegacao__itens li > a:hover {
+    display: none;
     color: #C083B9;
   }
   
@@ -157,7 +158,7 @@ li {
   height: 300px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-              url(../mariah-barcellos/img/mariah-filhos-gemeos.png);
+              url(../img/mariah-filhos.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 0rem;
@@ -166,10 +167,12 @@ li {
   text-align: center;
   color: white;
 }
-.principal_título {
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  font-weight: 900;
+.mulher_maravilhosa {
+ font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: rgb(156, 51, 69)
+  
+  
+
 
 }
 .mulher_maravilhosa {
@@ -180,13 +183,17 @@ li {
 
 }
   .imagem_maravilhosa{
-    background-image: url(../mariah-barcellos/img/mariah-barra-pole.png);
+    background-image: url(../mariah-barcellos/img/mariah-filhos.png);
     width: 300px;
   }
   
- .parágrafo {
-  font-weight: 300;
-  margin: 2rem 0 3rem 0;
-  font-size: 1.5rem
-
- }
+  .expressão_usada {
+    background-color: white; 
+    border:1px solid  #E5E5E5; 
+    padding: 15px;
+    text-align: center;
+    text-size-adjust: ;
+    color: rgb(73, 73, 158);
+  }
+ .Sobre
+ font-family: 'Montserrat', Arial, Helvetica, sans-serif;

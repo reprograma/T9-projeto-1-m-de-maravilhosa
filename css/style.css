@@ -156,20 +156,8 @@ li {
 }
 
 
-/* --- HEADER --- */
-.header {
-    min-height: 80vh;
-    height: 500px;
-    background: linear-gradient(rgba(255, 0, 255, 0.2),
-                                rgba(255, 0, 255, 0.2)),
-                url(../img/bg-banner-claro.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    color: white;
-/*    padding: 11rem 2rem 5rem 2rem;*/
+
+
 }
 
 .principal__titulo {
@@ -178,7 +166,7 @@ li {
   font-weight: 900;
 }
 
-.principal__sub {
+.principal__titulo {
   font-weight: 300;
   margin: 2rem 0 3rem 0;
   font-size: 1.5rem;
@@ -415,4 +403,4 @@ li {
   .principal {
       max-width: 650px;
   }
-}
+
