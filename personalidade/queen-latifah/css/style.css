@@ -152,8 +152,12 @@ section {
 
 .titulo {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
     line-height: 4.7rem;
+}
+
+.titulo_secundario {
+    text-align: left;
 }
 
 .img_persona {
@@ -162,21 +166,19 @@ section {
 }
 
 .text_persona {
-    /*padding: 0;
-    margin: 1.3rem 0 1.3rem 0;*/
-    font-size: 13px;
+    margin: 2rem auto;
+    font-size: 12px;
 }
 
 .borda_frase{
     border: 1px solid #63458A;
-    padding: 0.6rem 2.5rem;
+    padding: 0 2.5rem;
 }
 
 .frase_persona {
-    text-align: center;
     font-weight: 900;
-    line-height: 1.9;
-    margin: 0;
+    line-height: 1.6;
+    font-size: 13px;
 }
 
 /* FOOTER */
