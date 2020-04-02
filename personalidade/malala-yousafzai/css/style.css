@@ -41,7 +41,7 @@ li {
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 .img-responsive {
-  width: 100%;
+ width: 100%;
 }
 
 /* define o tamanho da caixa */
@@ -185,7 +185,18 @@ li {
   font-size: 16px;
 }
 
+.subtitulo__persona {
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 56px;
+text-align: center;
+color: #63458A;
+padding: 0;
+}
 
-
-
+.subtitulo__persona__titulo {
+  min-width: min-content;
+}
 
