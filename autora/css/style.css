@@ -129,11 +129,34 @@ li {
     margin-right: 250px;
 }
 
-.div_h2{
+.div_h2, .div_h3, .div_h4 {
     color: #63458A;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Montserrat;
+}
+
+.img-outras {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-right: 100px;
+}
+
+.link-foto-outras {
+  width: 30px;
+  
+}
+.foto-t9 {
+  width:750px;
+  margin-top: 40px;
+}
+
+.legenda-foto-divas {
+  color: #6D6D6D;
+  font-style: italic;
+  font-size: 10px;
+  margin-bottom: 60px;
 }
 
 .foto-gabi {
@@ -143,16 +166,51 @@ li {
     margin-right: 30px;
 }
 
-.linha-vertical {
-    height: 500px;/*Altura da linha*/
+.linha-horizontal {
+    /*height: 500px;/*Altura da linha*/
     /*border: ;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-    color: #63458A;
-    text-align: center;
+  background: #63458A;
+  text-align: center;
+  height: 1px;
+  margin-top: 70px;
+  margin-left: 530px;
+  margin-right: 530px;
+  margin-bottom: 70px;
+}
+.paragrafo_div3 {
+  text-align:justify;
+  font-size:15px;
+  margin-left: 250px;
+  margin-right: 250px;
+
 }
 
+/*footer*/
+.f-footer {
+  color:#63458A;
+  height: 30px;
+}
 
+.navegacao__itens{
+  display:flex;
+}
 
+.navegacao__itens-footer {
+  display:flex;
+  padding:50px;
+  background-color: #323534;
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: space-around;
+}
 
+.creative-commons {
+  text-align: center;
+  background: #292A2A;
+  color:white;
+  padding:1px;
+}
 
 
 /*.autora {
