@@ -65,24 +65,23 @@ h4 {
 }
 
 .intro {
-    display: flex;
+    text-align: center;
 }
 
 .intro_bio {
-    text-align: right;
-    text-justify: distribute;
-    font-size: 1rem;
     min-width: 100px;
-    max-width: 300px;
     letter-spacing: 0.08rem;
-    margin-left: 10px;
+    padding: 5px 5px;
+    margin-bottom: 15px;
 }
 
 .portrait {
-    min-width: 50px;
+    min-width: 100px;
     max-width: 100px;
     width: 100%;
     border-radius: 100%;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 
@@ -103,16 +102,21 @@ h4 {
 }
 
 .btn_botao {
-    align-content: center;
+    text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.5rem;
     color: white;
     background: plum;
     border-radius: 4px;
     margin: 50px 100px;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     width: 200px;
+}
+
+.btn_botao:hover {
+    background-color: #674582;
 }
 
 
@@ -210,6 +214,9 @@ h4 {
     line-height: 3.5rem;
 }
 
+
+/* AUTORA  */
+
 .autora {
     display: flex;
     flex-direction: row;
@@ -217,14 +224,17 @@ h4 {
     justify-content: center;
     color: #63458a;
     background: plum;
-    margin-bottom: 50px;
-    padding: 0px 100px;
+    padding: 0px 0px;
     font-size: 1.5rem;
 }
 
 .retrato__autora {
     max-width: 120px;
     width: 100%;
+}
+
+.autora a:hover {
+    color: white
 }
 
 
@@ -249,43 +259,6 @@ h4 {
 
 
 /* --- SECTION MARAVILHOSAS --- */
-
-.maravilhosas__titulo {
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    color: #63458a;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.maravilhosas__box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    color: #63458a;
-}
-
-.maravilhosas__perfil {
-    max-width: 120px;
-    margin: 2rem;
-}
-
-.maravilhosas__perfil img {
-    background-color: #63458a;
-    border-radius: 10px;
-}
-
-.maravilhosas__perfil a img {
-    transition: all .5s;
-}
-
-.maravilhosas__perfil a:hover {
-    text-decoration: underline;
-}
-
-.maravilhosas__perfil a:hover img {
-    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
-}
 
 
 /* --- FOOTER --- */
@@ -362,6 +335,12 @@ h4 {
 
 /*** MEDIA QUERIES ***/
 
+@media (max-width: 700px) {
+    .navegacao__redes-sociais {
+        display: none;
+    }
+}
+
 
 /* TABLET */
 
@@ -401,17 +380,6 @@ h4 {
         margin: 0;
     }
     /* --- SECTION MARAVILHOSAS --- */
-    .maravilhosas {
-        padding: 4rem 0;
-    }
-    .maravilhosas__box>div {
-        max-width: 200px;
-        margin: 5rem;
-    }
-    .maravilhosas__perfil p {
-        font-size: 1.5rem;
-        margin-top: 1rem;
-    }
     .header {
         background-size: cover;
     }
@@ -433,7 +401,15 @@ h4 {
         font-size: 1.5rem;
         ;
     }
-    /** PERSONALIDADE **/
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    .intro_bio {
+        max-width: 500px;
+        text-align: left;
+        margin-left: 20px;
+    }
     /* --- OUTRA HEADER --- */
     .header-personalidade {
         padding: 0 20rem;
@@ -443,9 +419,6 @@ h4 {
     .header-personalidade__titulo {
         font-size: 3.5rem;
         text-align: center;
-    }
-    .intro {
-        display: flex;
     }
     main {
         margin: 20px 100px;
@@ -458,12 +431,18 @@ h4 {
     }
     .intro {
         display: flex;
+        justify-content: center;
     }
     main {
         margin: 20px 100px;
     }
     .header {
         background-size: cover;
+    }
+    .intro_bio {
+        max-width: 500px;
+        text-align: left;
+        margin-left: 20px;
     }
 }
 
@@ -489,5 +468,11 @@ h4 {
     }
     .intro {
         display: flex;
+        justify-content: center;
+    }
+    .intro_bio {
+        max-width: 500px;
+        text-align: left;
+        margin-left: 20px;
     }
 }
