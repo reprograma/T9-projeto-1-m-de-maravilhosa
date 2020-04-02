@@ -94,7 +94,7 @@ li {
     width: 100%;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
             rgba(255, 0, 255, 0.2)),
-        url(../img/bg-banner-claro.png);
+        url(../img/equipe.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +114,7 @@ li {
 
 .ilza {
     align-items: center;
-    padding: 20px 190px;
+    padding: 20px 210px;
 }
 
 
@@ -246,7 +246,7 @@ li {
     text-align: center;
     transition: all .5s;
 
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .btn_roxo:hover,
@@ -304,6 +304,10 @@ li {
 /* --- MEDIA QUERY --- */
 
 @media screen and (max-width: 885px) {
+
+    /* .header {
+        background-position: left;
+    } */
     .navegacao__menu-hamburguer {
         display: block;
     }
@@ -325,21 +329,15 @@ li {
         font-size: 2.2rem;
     }
 
-    /* .linha {
-        margin: 60px 100px;
-    } */
+
 
 }
 
-@media screen and (min-width: 885px) /*and (max-width: 1080px) */{
+@media screen and (min-width: 885px) {
     .ilza {
-        padding: 20px 80px;
+        padding: 20px 120px;
     }
 
-    /* .linha {
-     
-        margin: 60px 200px;
-    } */
-
+    
 
 }
