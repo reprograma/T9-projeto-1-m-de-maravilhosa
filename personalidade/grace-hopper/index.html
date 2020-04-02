@@ -16,16 +16,14 @@
                 <img class="nav__img" src="../../img/logo-white.png" alt="Logo M de Maravilhosa">
             </a>
             <div class="menu">
-                <div class="menu__item">
-                    <ul>
-                        <li>
+                    <ul class="menu__item">
+                        <li class="menu__item__link">
                             <a href="#">Home</a>
                         </li>
-                        <li>
+                        <li class="menu__item__link">
                             <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
                         </li>
                     </ul>
-                </div>
                 <div class="menu__mediasocial">
                     <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
                         <img src="../../img/icon-facebook.png" alt="Íconde do Facebook">
@@ -58,15 +56,21 @@
     <main class="container">
         <section class="about">
             <h2 class="about__title">A vovo do Cobol</h2>
+           <!-- <div class="about"> -->
+            <div class="about__box__img">
+
             <img src="img/grace-hopper.jpg" alt="Grace Hopper" class="about__img">
+        </div>
             <p class="about__paragraph">Grace Murray Hopper é uma das grandes mulheres da computação que conquistou títulos como “a incrível Grace Hopper”,
                 “Rainha da Computação”, “Rainha da Codificação”, “vovó do COBOL” e “Grande Dama do Software”.</p>
+            <!-- </div> -->
         </section>
+    
         <section class="quote">
             <blockquote>
                 <p>
                     <strong>
-                        “Se é uma boa ideia, vá em frente e faça porque é muito mais fácil pedir desculpas do que obter permissão.
+                        “Se é uma boa ideia, vá em frente e faça porque é muito mais fácil pedir desculpas do que obter permissão."
                     </strong>
                 </p>
             </blockquote>
@@ -75,13 +79,15 @@
             <h3 class="history__title">Sua Historia</h3>
             <p class="history__paragraph">
                 Hopper foi uma analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950, e enquanto atuava por lá desenvolveu
-                a linguagem de programação Flow-Matic, que foi a primeira delas a ser adaptada para o idioma inglês. Essa
+                a linguagem de programação Flow-Matic, que foi a primeira delas a ser adaptada para o idioma inglês.<br> <br> Essa
                 linguagem, apesar de já extinta, serviu como base para a criação do COBOL (Common Business Oriented Language)
                 – usado até os dias de hoje em processamento de bancos de dados comerciais. E, por isso, mesmo que ela não
                 tenha participado efetivamente da criação dessa linguagem de programação, Grace Hopper ficou conhecida como
                 a “vovó do COBOL” por ter desenvolvido a base para sua criação.
             </p>
-                <img src="../grace-hopper/img/grace-murray-hopper.PNG" alt="Grace Hopper ao lado de um computador" class="history__img">
+            <div class="history__box__img">
+                <img src="../grace-hopper/img/grace-murray-hopper.jpg" alt="Grace Hopper ao lado de um computador" class="history__img">
+            </div>
             <p class="history__paragraph">
                 Por conta de sua relevância, Hopper foi convidada para integrar o subcomitê que desenvolveu as especificações da linguagem
                 COBOL em uma reunião que aconteceu em 1959 no Pentágono. Além da analista da Marinha, fizeram parte do comitê
@@ -91,10 +97,20 @@
                 um problema em seu computador. Quando o descobriu, ela teria visto um inseto morto dentro da máquina – e
                 acabou chamando o problema de “bug” que, em português, significa “inseto”.
             </p>
-
         </section>
-
     </main>
+    <section class="author">
+        <div class="author__box__img">
+        <img src="img/natalia-luiza.jpg" alt="" class="author__img">
+    </div>
+    <div class="author__box">
+        <p class="author__paragraph">Natalia Luiza <br>Front-end Developer</p>
+       <a href="https://github.com/natalialuizas" class="author__github" target="_blank">Github</a>
+    </div>
+    </section>
+    <div class="content btn__box">
+        <a href="../../index.html" class="btn__home">Ver todas elas</a>
+    </div>
     <footer class="footer">
             <div class="footer__box">
                     <ul class="footer__menu">

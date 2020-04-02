@@ -33,6 +33,10 @@ li {
     width: 100%;
     max-width: 960px;
 }
+main{
+    color: #63458a;
+
+}
 
 .nav {
     background-color: #674582;
@@ -40,6 +44,7 @@ li {
     text-transform: uppercase;
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
     padding: 1.5rem;
+    z-index: 99;
     position: fixed;
     width: 100%;
     justify-content: space-around;
@@ -58,6 +63,8 @@ li {
     display: none;
 }
 
+
+
 .menu__hambuguer {
   border-radius: 5px;
 }
@@ -67,16 +74,17 @@ li {
     max-height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(../img/grace-hopper-perfil.jpg) no-repeat center center / cover;
+                url(../img/grace-hopper-perfil.jpg) no-repeat center left / cover;
     display:flex;
     align-items: flex-end;
     text-align: center;
     color: white;
+    background-position-x: -100px;
 }
 
 .header__title {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
@@ -86,33 +94,41 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 30px;
 }
+
 
 .about__title {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    color: #63458a;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 20px;
+    text-align: center;
+}
+
+.about__box__img {
+    max-width: 200px;
+    max-height: 211px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .about__img {
-    max-width: 120px;
-    border-radius: 8px;
+  width: 100%;
     
 }
 
-.about__paragraph {
-    color: #674582;
-    font-size: 1.4rem;
-    text-align: center;
-    padding: 0 20px;
+.about__paragraph, .history__paragraph  {
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: 0 2rem;
 }
 
+
 .quote {
-    color: #674582;
     border: 1px solid #674582;
-    font-size: 1.2rem;
-    width: 80%;
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
     display: flex;
     margin: 0 auto;
 }
@@ -120,27 +136,75 @@ li {
 .history{
     display: flex;
     flex-direction: column;
-    align-items: center;
+  
 }
 
 .history__title {
     padding: 10px 20px;
     font-size: 1.6rem;
-    color: #674582;
 }
 
-.history__paragraph {
-    color: #674582;
-    font-size: 1.4rem;
-    padding: 0 20px;
-    text-align: center;
+.history__box__img {
+    max-width: 960px;
+    max-height: 350px;
+    overflow: hidden;
+    margin:20px;
 }
 
 .history__img {
-    width: 80%;
+    width:100%;
 }
 
-/* --- FOOTER --- */
+.author {
+    background-color:  #E4B7E5;
+    max-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.author__box__img {
+    background-color: #aaa;
+    width: 150px;
+    height: 150px;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+  
+}
+
+.author__img{
+  position: absolute;
+  top: -80px;
+  width: 100%;
+}
+
+.author__paragraph, .author__github {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.btn__box {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.btn__home {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 44px;
+    background: #C083B9;
+    border-radius: 10px;
+    padding: .6rem 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+
 .footer {
     background-color: #323534;
     color: white;
@@ -201,3 +265,108 @@ li {
     opacity: 0.5;
     text-align: center;
   }
+
+
+  @media screen and (min-width: 768px) {
+
+    .menu {
+        display: flex;
+    }
+
+    .menu__hambuguer{
+        display: none;
+    }
+
+    .menu__item  {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    font-size: 1.2rem;
+    }
+
+    .menu__item__link, .menu__mediasocial a {
+      padding: 0 5px;
+    }
+
+    .menu__item__link:hover {
+        color: #C083B9
+    }
+
+    .header {
+        background-position-x: 0;
+    }
+   .about {
+    display: flex;
+    flex-direction: row;
+   
+   }
+   .about__title {
+    display: block;
+    width: 100%;
+    font-size: 2.6rem;
+   }
+
+   .about__paragraph {
+    text-align: left;
+    font-size: 1.8rem;
+    width: 68%;
+  }
+   
+   .quote{
+    width: 95%;
+   }
+
+   .history__title{
+    padding: 10px 0;
+    font-size: 2.5rem;
+    margin: 30px 0 0 0;
+   }
+
+   .history {
+    padding: 20px;
+   }
+
+   .history__paragraph {
+       padding: 0;
+       text-align: left;
+       font-size: 1.8rem;
+   }
+
+   .author__box__img {
+       max-width: 200px;
+       max-height: 200px;
+   }
+
+   .footer {
+    padding-top: 0;
+   }
+
+   .footer__box {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__logo__img {
+    max-width: 250px;
+}
+
+.footer__menu > li {
+    font-size: 1.5rem;;
+}
+
+  }
+
+
+
+  @media screen and (min-width: 1024px) {
+
+    .header {
+        background-position: center top;
+    }
+
+    
+ 
+}
