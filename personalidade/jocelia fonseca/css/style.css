@@ -25,7 +25,7 @@ li {
     list-style: none;
 }
 main {
-  margin: 90px 295px;
+  margin: 90px 440px;
 }
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
@@ -207,12 +207,12 @@ h1 {
   align-items: center;
   margin-top: 60px;
   justify-content: center;
+
 }
 .img-sobre-jocelia {
   width: 210px;
-  height: 216px;
   max-width: 100%;
-  
+  border-radius: 20px;
 }
 .txt-sobre-jocelia {
   width: 580px;
@@ -273,14 +273,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 250px;
+
 }
 
  .autora {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1920px;
+  width: 2000px;
   height: 214px;
   left: 0px;
   top: 2375px;
@@ -305,9 +305,23 @@ h1 {
   line-height: 2.5rem;
  }
 
-.btn {
-  background: #C083B9;
-  border-radius: 10px;
+.div-btn {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+
+}
+
+.btn-2 {
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 370px;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
 }
 
 
