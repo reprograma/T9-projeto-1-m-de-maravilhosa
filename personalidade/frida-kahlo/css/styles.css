@@ -187,6 +187,8 @@ margin: auto auto auto 40px;
   padding: 30px;
 }
 
+
+
 h2 {
 font-family: Roboto Slab;
 font-style: normal;
@@ -204,6 +206,8 @@ color: #63458A;
 .principal__img-perfil {
 align-items: center;
 width: 150px;
+border-radius: 10px;
+
 }
 
 .principal__mini-bio {
@@ -236,6 +240,48 @@ text-align: justify;
 
 }
 
+/*--ABOUT ME --*/
+
+.aboutme {
+  display: flex;
+  justify-content: space-around;
+  background: #E4B7E5;
+  width: 100%;
+}
+
+.aboutme__texto {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+color: #63458A;
+text-align: left;
+width: 300px;
+}
+
+.aboutme__foto {
+  width: 130px;
+
+}
+
+.btn__diretoriohome {
+display: flex;
+justify-content: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 35px;
+color: #FFFFFF;
+background:  #C083B9;
+border-radius: 10px;
+text-transform: uppercase; 
+margin-top: 30px;
+padding: 5px 40px
+}
+
+
 /* --- FOOTER --- */
 .rodape {
   background-color: #323534;
@@ -249,8 +295,8 @@ text-align: justify;
 
 .rodape__principal {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+   justify-content: space-between;
   align-items: center;
   text-align: center;
   padding: 1.5rem 0;
@@ -344,3 +390,4 @@ text-align: justify;
     display: inline-block;
   }
 }
+
