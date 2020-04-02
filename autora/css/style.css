@@ -51,7 +51,7 @@ li {
   position: absolute;
   right: -700px;
   top: 85px;
-  width: 100%;
+  /*width: 100%;*/
   background-color: #674582;
   text-align: center;
   padding: 3rem 0;
@@ -102,9 +102,10 @@ li {
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(/banner-autora.jpg);
+                url(../img/banner-autora.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -135,11 +136,27 @@ h2 {
     color: #63458A;
 
 }
+.paragrafo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    line-height: 4rem;
+    color: #63458A;
+    margin-left: 5rem;
+}
 
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 960px;
+}
+
+.line {
+    background-color: rgb(99, 69, 138);
+    width: 180px;
+    height: 3px;
+    
 }
 
 /* --- FOOTER --- */
