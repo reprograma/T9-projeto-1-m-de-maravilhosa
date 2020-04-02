@@ -200,3 +200,19 @@ padding: 0;
   min-width: min-content;
 }
 
+.img__perfil {
+  display: inline;
+}
+
+.img__perfil__img {
+align-items: center;
+}
+
+.perfil__text {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 47px;
+  color: #63458A;
+}
