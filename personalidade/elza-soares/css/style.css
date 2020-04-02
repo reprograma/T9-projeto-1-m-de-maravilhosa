@@ -21,6 +21,11 @@ font-size: 30px;
 line-height: 40px;
 }
 
+..minibio {
+  display: flex;
+  flex-direction: column;
+}
+
 .minibio__img {
   max-width: 210px;
   margin: 0 auto;
@@ -29,7 +34,11 @@ line-height: 40px;
 .quote {
   border: 1px solid #63458A;
   box-sizing: border-box;
+  padding: 10px;
+  margin: 40px 0;
+  
 }
+
 
 .quote h3 {
   font-weight: bold;
@@ -151,7 +160,54 @@ margin: 0 1rem;
 }
 
 
+.sobre-autora {  
+  background-color: #E4B7E5;
+  text-align: center;
+  color: #63458A;
+  margin-top: 40px;
+}
 
+.sobre-autora__container{
+  display: flex;
+  align-items: center;
+}
+
+.sobre-autora__foto {
+  max-width:210px;
+}
+
+.sobre-autora__texto {
+  margin: 0 auto;
+}
+
+.titulo-bafao {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.minibio__titulo {
+  text-align: center;
+}
+
+.sobre-autora__texto {
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.button {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.button__link {
+  text-transform: uppercase;
+  background: #C083B9;
+  border-radius: 10px;
+  padding: 19px 66px;  
+  font-weight: bold;
+  color: #fff;
+}
 
 
 /* --- FOOTER --- */
@@ -223,3 +279,31 @@ margin: 0 1rem;
   opacity: 0.5;
   text-align: center;
 }
+
+
+@media screen and (min-width:420x){
+  
+.quote {
+  padding: 20px;
+}
+}
+
+
+@media screen and (min-width:421px){
+  
+  .quote {
+    padding: 20px;
+  }
+
+
+  .sobre-autora__container{
+    max-width: 70%;
+    margin: 0 auto;
+  } 
+  
+  }
+
+  @media screen and (min-width:700px){
+
+
+  }
