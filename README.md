@@ -61,7 +61,7 @@ personalidade/
     img/
       ada-lovelace-perfil.jpeg
       al-bg.jpeg
-      al-historia.png
+      
 
 autora
   seu-nome/
