@@ -169,17 +169,18 @@ li {
 }
 
 .header__titulo {
-text-shadow: 1px 1px 1px black;
-position: absolute;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 44px;
-line-height: 88px;
-justify-content: center;
-display: flex;
-text-align: center;
-margin: auto auto auto 40px;
+  text-shadow: 1px 1px 1px black;
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 88px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: auto auto auto 40px;
+  width: 100%;
 
 }
 
@@ -196,15 +197,12 @@ h2 {
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: bold;
-font-size: 17px;
+font-size: 20px;
 line-height: 47px;
 text-align: center;
 color: #63458A;
 }
 
-.principal__titulo {
-  text-align: center;
-}
 
 .principal__img-perfil {
 align-items: center;
@@ -221,10 +219,11 @@ font-size: 14px;
 line-height: 20px;
 color: #63458A;
 text-align: justify;
+width: 100%;
 }
 
 .principal__quote {
-  border: 2px solid #63458A;
+  border: 1px solid #63458A;
   box-sizing: border-box;
   font-size: 27px;
   font-family: Montserrat;
@@ -234,13 +233,33 @@ text-align: justify;
   text-align: center;
   color: #63458A;
   margin-top: 30px;
+  padding: 5px;
 }
+
+.section__mini-bio {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
+
+ .principal__texto-historia {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #63458A;
+  text-align: justify;
+  
+ }
+
 
 .principal__img-historia  {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-
+  padding: 30px;
+  max-width: 750px;
 }
 
 /*--ABOUT ME --*/
@@ -249,15 +268,15 @@ text-align: justify;
   display: flex;
   justify-content: space-around;
   background: #E4B7E5;
-  width: 100%;
+  width: 110%;  
 }
 
 .aboutme__texto {
   font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
-line-height: 20px;
+font-size: 14px;
+line-height: 25px;
 color: #63458A;
 text-align: left;
 width: 300px;
@@ -299,10 +318,11 @@ padding: 5px 40px
 .rodape__principal {
   display: flex;
   flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 5px;
+  
 }
 
 .rodape__principal > * {
@@ -392,10 +412,19 @@ padding: 5px 40px
   .principal__container {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
    }
 
    .principal__mini-bio {
      margin-left: 30px;
    }
+
+    .subtitulo__historia {
+      text-align: left;
+      padding: 0;
+      margin-left: 30px;
+    
+    }
+   
 }
 
