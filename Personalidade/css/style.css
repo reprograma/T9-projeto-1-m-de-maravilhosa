@@ -87,7 +87,7 @@ li {
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
     padding: 1.5rem;
     z-index: 99;
-    position: fixed;
+    background-position-y:0rem;
     width: 100%;
     justify-content: space-around;
 }
@@ -109,6 +109,7 @@ li {
   top: 85px;
   width: 100%;
   background-color: #674582;
+  background-position-y:0rem;
   text-align: center;
   padding: 3rem 0;
   transition: right 1s;
@@ -135,9 +136,8 @@ li {
   
   .navegacao__menu-hamburguer img {
     background-color: #C083B9;
-    border-radius: 5px;
+      border-radius: 5px;
   }
-  
   .navegacao__nav {
     margin-bottom: 3rem;
     margin-right: 2rem;
@@ -154,14 +154,39 @@ li {
 /* --- HEADER --- */
 .header {
   min-height: 80vh;
-  height: 500px;
+  height: 300px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-              url(../img/bg-banner-claro.png);
+              url(../mariah-barcellos/img/mariah-filhos-gemeos.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: 0rem;
   display: flex;
   align-items: flex-end;
   text-align: center;
   color: white;
-/*    padding: 11rem 2rem 5rem 2rem;*/
+}
+.principal_título {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+
+}
+.mulher_maravilhosa {
+  font-weight: 300;
+  margin: 2rem 0 3rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+  .imagem_maravilhosa{
+    background-image: url(../mariah-barcellos/img/mariah-barra-pole.png);
+    width: 300px;
+  }
+  
+ .parágrafo {
+  font-weight: 300;
+  margin: 2rem 0 3rem 0;
+  font-size: 1.5rem
+
+ }
