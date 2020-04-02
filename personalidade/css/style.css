@@ -118,6 +118,16 @@ li {
 }
 
   /*Footer*/
+/*footer*/
+.f-footer {
+  height: 30px;
+  margin-right: 30px;
+}
+
+.navegacao__itens{
+  display:flex;
+}
+
 .navegacao__itens-footer {
   display:flex;
   padding:50px;
@@ -133,7 +143,9 @@ li {
   background: #292A2A;
   color:white;
   padding:1px;
+  margin:0;
 }
+
 
 /*Texto do corpo*/
 
@@ -186,9 +198,6 @@ li {
   padding:45px;
 }
 
-
-
-
 .conteudo__texto {
   color: #674582;
   padding: 150px;
@@ -207,12 +216,6 @@ li {
   margin-left: 280px;
   width: 500px;
 }
-
-
-
-
-
-
 
 
 /* Parte Rosa AUTORA*/
