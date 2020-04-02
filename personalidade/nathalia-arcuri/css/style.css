@@ -26,7 +26,7 @@ li {
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 .img-responsive {
-width: 100%;
+width: 80%;
 }
 
 /* define o tamanho da caixa */
@@ -36,6 +36,9 @@ width: 100%;
 max-width: 960px;
 }
 
+
+
+/* --- NAV --- */
 .navegacao {
   background-color: #674582;
   color: white;
@@ -49,7 +52,7 @@ max-width: 960px;
 }
 
 .navegacao__logo {
-max-width: 200px;
+  max-width: 200px;
 }
 
 .navegacao__box {
@@ -60,52 +63,52 @@ max-width: 200px;
 }
 
 .navegacao__itens {
-position: absolute;
-right: -700px;
-top: 85px;
-width: 100%;
-background-color: #674582;
-text-align: center;
-padding: 3rem 0;
-transition: right 1s;
+  position: absolute;
+  right: -700px;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
 }
 
 .navegacao__itens.ativo {
-display: block;
-right: 0;
-top: 85px;
-width: 100%;
-background-color: #674582;
-text-align: center;
-padding: 3rem 0;
-transition: right 1s;
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
 }
 
 .navegacao__itens li > a {
-transition: all .2s;
+  transition: all .2s;
 }
 
 .navegacao__itens li > a:hover {
-color: #C083B9;
+  color: #C083B9;
 }
 
 .navegacao__menu-hamburguer img {
-background-color: #C083B9;
-border-radius: 5px;
+  background-color: #C083B9;
+  border-radius: 5px;
 }
 
 .navegacao__nav {
-margin-bottom: 3rem;
-margin-right: 2rem;
+  margin-bottom: 3rem;
+  margin-right: 2rem;
 }
 
 .navegacao__nav li {
-font-size: 1.5rem;
-margin: 1rem;
+  font-size: 1.5rem;
+  margin: 1rem;
 }
 
 .navegacao__redes-sociais a {
-margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 
@@ -120,6 +123,7 @@ margin: 0 1rem;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  width: 100%;
   text-align: center;
   color: white;
   
@@ -127,33 +131,121 @@ margin: 0 1rem;
 }
 
 .principal__titulo {
-text-transform: uppercase;
-font-size: 2.5rem;
-font-weight: 900
-;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+  justify-content: space-around;
+  margin: 5rem;
 }
 
-.principal__sub {
-text-align: center;
-font-size: 2rem;
-color: rgb(129, 76, 199);
+
+/* conteúdo */
+
+.main {
+  text-align: center;
+  color: #63458A;
+  margin: 15px;
+  
+}
+.caixa-de-citacao {
+  margin: 15px;
+  border: 1px solid #63458A;
+  
+}
+.caixa-de-citacao-p {
+  font-style: italic;
+  padding: 10px 15px 10px 15px;
+}
+
+.hitoria {
+  
+}
+.historia-h2 {
+  text-align: left;
 
 }
 
-.conteudo {
-  margin: 30px;
+.autora {
+  background: #E4B7E5;
+  
+}
+.text-1{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.text-2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+  
+.autora-caixa {
+  display: flex;
+  display: ;
+}
+
+.autora-img {
+  width: 20%;
+  margin-left: 40px;
 
 }
 
-.rodape {
-  background: #323534;
+.autora-site {
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  }
+  
+  .btn_roxo {
+  margin-top: 20px;
   color: white;
-  font-size: 0.9rem;
+  background-color: #C083B9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  /* transition: all .5s; */
+  margin: 0 auto;
+  }
+  
+  .btn_roxo:hover,
+  .btn_roxo:focus {
+   transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+  background-color: rgb(192, 156, 188);
+  }
+  
+  .btn_roxo:active {
+  transform: translateY(-.5rem);
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  }
+  
+  .btn_center {
+  margin: 0 auto;
+  }
+
+/* /* --- FOOTER --- */
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: .9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: .8rem;
 }
+
 .rodape__principal {
   display: flex;
   flex-direction: column;
@@ -211,7 +303,112 @@ color: rgb(129, 76, 199);
   font-size: 1rem;
   opacity: 0.5;
   text-align: center;
-}.rodape__principal {
+}
 
 
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+  /* --- NAV --- */
+.navegacao__itens {
+  position: static;
+  display: flex;
+  padding: 0;
+  width: auto;
+}
+
+.navegacao__nav {
+  margin-bottom: 0;
+}
+  
+.navegacao__itens ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+  
+.navegacao__itens li {
+  font-size: 1.2rem;
+  margin: 0 .6rem;
+}
+  
+.navegacao__menu-hamburguer {
+  display: none;
+}
+
+  /* --- HEADER --- */
+.header {
+  min-height: 75vh;
+  text-align: center;
+  padding: 5rem 10rem;
+}
+
+.principal__titulo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 88px;
+  
+.principal__sub {
+      font-size: 1.8rem;
+}    
+
+.principal__btn {
+  margin: 0;
+ }
+
+
+  /* --- FOOTER --- */
+.rodape {
+  padding-top: 0;
+}
+
+.rodape__principal {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape__logo img {
+  max-width: 250px;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.5rem;;
+}
+  /** PERSONALIDADE **/
+  /* --- OUTRA HEADER --- */
+.header-personalidade {
+  padding: 0 20rem;
+  display: flex;    
+  align-items: flex-end;
+}
+
+.header-personalidade__titulo {
+ font-size: 3.5rem;
+ text-align: center;
+
+}
+}
+
+@media (min-width: 1024px) {
+.principal {
+  max-width: 650px;
+}
+}
+
+/* DESKTOP */
+@media (min-width: 1900px) {
+/* .navegacao__box {
+    max-width: 80%;
+} */
+.header {
+ min-height: 90vh;
+}
+.navegacao__itens li {
+  font-size: 1.5rem;
+  margin: 0 1rem;
 }
