@@ -183,17 +183,27 @@ li {
 
 }
   .imagem_maravilhosa{
-    background-image: url(../mariah-barcellos/img/mariah-filhos.png);
+    background-image: url(../img/mariah-filhos-gemeos.png);
     width: 300px;
   }
   
   .expressão_usada {
     background-color: white; 
-    border:1px solid  #E5E5E5; 
-    padding: 15px;
+    border:4px solid  #E5E5E5; 
+    padding: 10px;
     text-align: center;
-    text-size-adjust: ;
+    text-size-adjust:5;
     color: rgb(73, 73, 158);
+    font-size: 20px;
   }
- .Sobre
+ .Sobre {
  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ color: rgb(73, 73, 158);
+text-align: center;
+padding: 3rem;
+font-size: 18px;
+ }
+ .Parágrafo  {
+font-size:10px
+
+ }
