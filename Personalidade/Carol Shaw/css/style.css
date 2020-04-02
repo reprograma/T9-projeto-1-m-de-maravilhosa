@@ -1,3 +1,5 @@
+/*Mobile First*/
+
 * {
     box-sizing: border-box;
 }
@@ -34,7 +36,7 @@ li {
     max-width: 960px;
 }
 
-.navegação {
+  .navegacao {
     background-color: #674582;
     color: white;
     text-transform: uppercase;
@@ -46,7 +48,7 @@ li {
     justify-content: space-around;
 }
 
-.navegacao__logo {
+  .navegacao__logo {
     max-width: 200px;
   }
   
@@ -103,34 +105,191 @@ li {
   }
   
   .navegacao__redes-sociais a {
-    margin: 0 1rem;
+    margin: 0 2rem;
   }
   
-
+  
   /*HEADER*/
 
   .header {
-      min-height: 80vh;
-      height: 500px;
-      background: linear-gradient(rgba(255, 0, 255, 0.2),
-      rgba(255, 0, 255, 0.2)),
-      url(../img/bg-banner-claro.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      text-align: center;
-      color: white;
-  }
+    min-height: 80vh;
+    height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+    rgba(255, 0, 255, 0.2)),
+    url(../img/capa-game.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: grayscale(0.98);*/
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
 
   .principal__titulo {
+      text-align: center;
+      position: relative; 
       text-transform: uppercase;
-      font-size: 2,5rem;
-      font-weight: 900;
+      font-weight: 700;
   }
 
-.principal__sub {
-    font-weight: 300;
-    margin: 2rem 0 3rem 0;
-    font-size: 1.5rem;
+  .principal__sub {
+   text-align: center;
+   color: #63458A;
+   font-weight: 700%;
+   font-size: 14px;
+   }
+   
+   .container-flex {
+     justify-content: space-around;
+     display: flex;
+     flex-wrap: wrap;
+   }
+ 
+   .img-intro {
+     margin-top: center;
+     width: 30%;
+     display: flex;
+     box-sizing: border-box;
+     border-radius: 20rem ; 
+     margin-top: 1rem;
+       
+  }
+
+   .intro {
+    text-align: center;
+    list-style: inside;
+    padding: 1rem;
+    margin: 0rem; 
+  }
+  
+  .quote {
+    text-align: center;
+    display: flexbox;
+    padding: 1rem;
+    margin: 1rem;
+    text-justify: auto;
+    border: 2px solid #C083B9;
+  }
+
+  
+
+  .maravilhosas__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+.maravilhosas__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color: #63458a;
+  }
+
+.maravilhosas__perfil {
+    max-width: 120px;
+    margin: 2rem;
 }
+
+.maravilhosas__perfil img {
+    background-color: #63458a;
+    border-radius: 10px;
+}
+
+.maravilhosas__perfil img {
+    transition: all .5s;
+}
+
+.maravilhosas__perfil a:hover img {
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Rodapé*/
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+/*@media screen (min-widht: 768px) {
+
+  .navegacao__menu-hamburguer {
+    display:none;
+  }*/
+
