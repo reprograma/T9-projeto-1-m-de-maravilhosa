@@ -178,7 +178,7 @@ main{
 
 .author__img{
   position: absolute;
-  top: -80px;
+      top: -50px;
   width: 100%;
 }
 
@@ -278,11 +278,11 @@ main{
     }
 
     .menu__item  {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    align-items: center;
-    font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        align-items: center;
+        font-size: 1.2rem
     }
 
     .menu__item__link, .menu__mediasocial a {
@@ -295,6 +295,10 @@ main{
 
     .header {
         background-position-x: 0;
+    }
+
+    .header__title{
+        font-size: 3rem;
     }
    .about {
     display: flex;
@@ -338,6 +342,11 @@ main{
        max-height: 200px;
    }
 
+   .author__img{
+        top: -80px;
+
+  }
+
    .footer {
     padding-top: 0;
    }
@@ -365,6 +374,20 @@ main{
 
     .header {
         background-position: center top;
+    }
+
+    .about__paragraph {
+        text-align: left;
+        font-size: 2rem;
+        width: 70%;
+      }
+
+    .history__box__img{
+        width: 100%;
+    }
+
+    .menu__item {
+        margin: 20px;
     }
 
     
