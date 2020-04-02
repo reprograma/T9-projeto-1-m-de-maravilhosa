@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 10px; /* definir uma font-size padrão */
+    font-size: 1rem; /* definir uma font-size padrão */
 }
 
 body {
@@ -25,7 +25,7 @@ li {
     list-style: none;
 }
 main {
-  margin: 90px 210px;
+  margin: 90px 295px;
 }
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
@@ -206,7 +206,7 @@ h1 {
   top: 822px;
   align-items: center;
   margin-top: 60px;
- 
+  justify-content: center;
 }
 .img-sobre-jocelia {
   width: 210px;
@@ -228,10 +228,11 @@ h1 {
   text-align: start;
   padding: 15px 30px;
   margin-left: 30px;
+  
 }
 .frase-1 {
   
-  width: 570px;
+  width: 816px;
   margin: auto;
   border: 1px solid #63458A;
   margin-top: 60px;
@@ -246,6 +247,10 @@ h1 {
   line-height: 3.5rem;
   margin: 20px;
 
+}
+
+.historia {
+  
 }
 .titulo_historia {
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
@@ -263,8 +268,46 @@ h1 {
   line-height: 2.6rem;
   color: #63458A;
   text-align: start;
-  padding: 15px 30px;
-  
+}
+.img-historia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+}
+
+ .autora {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 214px;
+  left: 0px;
+  top: 2375px;
+  background: #E4B7E5;
+ }
+
+ .img-autora {
+  width: 185px;
+  left: 494px;
+  top: 2663px;
+ }
+ .txt-autora {
+  width: 250px;
+  height: 116px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  margin-left: 35px;
+  color: #63458A;
+  line-height: 2.5rem;
+ }
+
+.btn {
+  background: #C083B9;
+  border-radius: 10px;
 }
 
 
