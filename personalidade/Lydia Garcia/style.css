@@ -136,40 +136,39 @@ li {
   text-align: center;
 }
 
-
-
-
-
 /*---Foto TEXTO--*/
 
-
-
 .breve-historia {
-    display: flex;
-    max-width: 55%;
     text-align: center;
     padding: 0;
     margin: 0;
+    color: #63458a; 
 }
 .titulo{
-    color: #63458a;
+  font-size: 3.2rem;
+  margin-bottom: 5%;
 }
 
 .img_text_persona{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.8rem;
+
 }
 .text_persona{
-    margin-left: 10px;
-
+  margin-top: 5%;
+  max-width: 75%;
+  color: #63458a;
 }
 
 .foto-perfil {
     border-radius: 10px;
-    max-width: 130px;
+    width: 250px;
 }
 
 section{
-    padding: 5rem;
+    padding: 3.0rem;
     text-align: justify;
 }
 
@@ -182,6 +181,7 @@ section{
     font-size: 16px;
     width: 63vw;
     text-align: center;
+    color: #63458a;
 }
 .historia {
     font-size: 16px;
@@ -204,38 +204,42 @@ section{
 
 .autora {
     display: block;
-    font-size: 16px;
-    padding: 32px;
-    font-weight: 600;
+    font-weight: 16px;
     background-color: #C083B9; 
     width: 100%;
     height: 162px;
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    text-align: left;
 }
-
+.autora__img{
+  height: 100%;
+}
+.autora__info{
+  text-align: left;
+  font-size: 1.6rem;
+  max-width: 40%;
+  margin-left: 10px;
+  color: #63458a;
+}
 
 /*---botão--*/
-button {
-    width: 100%;
-    display: flex;
+.botao {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fffcf7;
+  background-color: #63458a;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.container_botao{
+      display: flex;
+    align-items: center;
     justify-content: center;
-}
-.ver-todas-elas-btn {
-    width: 200px;
-    height: 25px;
-    background-color: #c083b9;
-    text-transform: uppercase;
-    border-radius: 5px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-}
-.ver-todas-elas-btn a {
-    text-align: center;
-    text-decoration: none;
-    color: white;
+    width: 100%;
+    height: 50px;  
+    margin-top: 30px;  
 }
 
 
@@ -359,11 +363,15 @@ button {
 
      /*--- HEADER ---*/
     .header {
+        background: cover;
         min-height: 75vh;
         text-align: center;
         padding: 5rem 10rem;
     }
-
+    .principal{
+      text-transform: uppercase;
+      display: inline;
+    }
     .principal__titulo {
         font-size: 3.5rem;
         text-align: center;
@@ -381,6 +389,32 @@ button {
         padding: 5rem;
         text-align: justify;
     }
+
+    .breve-historia {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+  }
+  .titulo{
+    margin-bottom: 5%;
+      color: #63458a;
+  }
+  
+  .img_text_persona{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+  }
+  .text_persona{
+  margin-left: 25px;
+  max-width: 35%;
+  }
+
+  .foto-perfil {
+    border-radius: 10px;
+    width: 250px;
+}
 
     /* --- FOOTER --- */
     .rodape {
@@ -404,9 +438,9 @@ button {
     /** PERSONALIDADE **/
     /* --- OUTRA HEADER --- */
     .header-personalidade {
-        padding: 0 20rem;
-        display: flex;
         
+       padding: 0 20rem;
+        display: flex;
         align-items: flex-end;
     }
 
@@ -439,4 +473,26 @@ button {
       max-width: 650px;
       text-align: center;
   }
+  .breve-historia {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.titulo{
+  margin-bottom: 5%;
+    color: #63458a;
+}
+
+.img_text_persona{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.text_persona{
+  margin-right: 15px;
+  max-width: 35%;
+  flex-wrap: wrap;
+}
+
 }
