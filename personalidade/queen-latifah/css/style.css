@@ -142,39 +142,41 @@ li {
 /* PERSONALIDADE */
 main {
     color: #63458A;
-}
-
-.titulo {
-    text-align: center;
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
-}
-
-.img_text_persona {
-    text-align: center;
+    margin-top: 25pxZZ;
     margin: 4rem;
 }
 
+section {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 4.7rem;
+}
+
 .img_persona {
-    width: 250px;
+    width: 23rem;
     border-radius: 5px;
 }
 
 .text_persona {
-    padding: 0;
-    margin: 2rem;
-    font-size: 10px;
-    text-align: center;
+    /*padding: 0;
+    margin: 1.3rem 0 1.3rem 0;*/
+    font-size: 13px;
 }
 
 .borda_frase{
-    border: 2px solid #63458A;
-    padding: 2rem;
-    margin: 4rem;
+    border: 1px solid #63458A;
+    padding: 0.6rem 2.5rem;
 }
 
 .frase_persona {
-    text-align: justify;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.9;
+    margin: 0;
 }
 
 /* FOOTER */
@@ -300,6 +302,10 @@ main {
     }
 
     /* --- SECTION MARAVILHOSAS --- */
+    .section_box{
+        margin: 4.5rem;
+    }
+
     .maravilhosas {
         padding: 4rem 0;
     }
@@ -319,6 +325,12 @@ main {
         margin: 4rem;
         text-align: left;
     }
+
+    .img_persona {
+        width: 35rem;
+        border-radius: 5px;
+    }
+
     /* --- FOOTER --- */
     .rodape {
         padding-top: 0;
