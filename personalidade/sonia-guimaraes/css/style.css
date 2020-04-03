@@ -1,0 +1,152 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.header{
+  min-height: 80vh;
+  height: 500px;
+  background: linear-gradient( rgba(162, 0, 255, 0.65),
+                                #ff00ea60),
+                  url(../../sonia-guimaraes/img/soniatop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.teste{    
+   width: 100%;
+   text-transform: uppercase;
+font-size: 2.5rem;
+font-weight: 900;  
+  }  
+
+.teste1{     
+     width:100%; 
+     text-align: center;    
+ }  
+.h1{    
+   color: #ffffff;    
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+ .caixa_grande{
+  text-align: center;
+  margin: 60px;
+  color: #674582;
+ }
+
+ .caixa_grandona{
+   display: flex;
+   flex-direction: center;
+   align-items: center;
+   margin: 0 auto;
+   width: 70%;
+   color: #674582;
+ }
+ .primeira_img{
+    max-width: 200px;
+ }
+ .primeira_img img{
+  max-width: 100%;
+
+ }
+ .texto_ladobio{
+  width: 75%;
+  color: #674582;
+  
+ }
+ .texto_ladobio2{
+  width: 102%;
+ }
+ .caixacomborda{
+   border:#674582 1px solid;
+   text-align: center;
+   width: 70%;
+   padding: 10px;
+   box-sizing: border-box;
+   font-size:20px;
+   margin: 20px auto;
+}
+.citacao{
+  color: #674582;
+  font-size: 20px;
+  line-height: 30px;
+}
+.imagemdabio{
+  margin-right: 10px;
+}
+.historia{
+  margin: auto;
+  width: 70%;
+  color: #674582;
+}
+.fotomeio{
+  width: auto;
+}
+.caixa_autora{
+  width: 100%;
+  height: 100px;
+  background-color:#e4b7e5  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #674582;
+  
+}
+ .autora_img img{
+  max-width: 96px;
+  width: 100%;
+  
+  
+ }
+ .rodape {
+  padding-top: 0;
+}
+
+.rodape__principal {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape__logo img {
+  max-width: 250px;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.5rem;;
+}
+
+.header-personalidade {
+  padding: 0 20rem;
+  display: flex;
+  color: #674582;
+  
+  align-items: flex-end;
+}
+
+.header-personalidade__titulo {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.botao{
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+
+}
+.btn{
+  width: 16%;
+  background-color: #c083b9;
+ 
+  
+}
+.titulo1{
+  font-size: 15px;
+  line-height: 20px;
+}
+.autora_texto{
+  margin:1rem;
+}

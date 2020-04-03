@@ -61,7 +61,7 @@ personalidade/
     img/
       ada-lovelace-perfil.jpeg
       al-bg.jpeg
-      al-historia.png
+      
 
 autora
   seu-nome/
@@ -69,7 +69,7 @@ autora
     css/
       style.css
     img/
-    seu-nome-perfil.png
+      seu-nome-perfil.png
 ```
 
 **Personalidade:** É a pasta na qual será criado o html, css e imagens da maravilhosa escolhida.
