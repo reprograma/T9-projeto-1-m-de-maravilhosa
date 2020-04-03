@@ -209,8 +209,8 @@ color: rgb(73, 73, 158);
     background-position: center;
     color: rgb(73, 73, 158);
     font-size: 20px;
-    width: 180px;
-    padding-top: 70%;
+    padding-top: 6%;
+
   }
  .Sobre {
  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -225,7 +225,100 @@ font-family: 'Montserrat', Arial, Helvetica, sans-serif;
  }
  .maravilhosa {
 background-image: url(../img/mariah-filhos.png);
-width: 320px;
-margin-left: 11px;
-display: flex;
+width: 320%;
+margin-left: 11%;
+min-height: 80vh;
+height: 300%;
  }
+ 
+
+ .bio_autora {
+color: rgb(73, 73, 158);
+display:flex;
+max-width: 150px;
+text-align: center;
+text-size-adjust:10px;
+transition: all 5s;
+margin: 0 auto;
+ }
+
+.sobre_autora {
+width: 100%;
+background-color: #E4B7E5;
+}
+
+.imagemm_autora {
+  background-image: url(../../../Autora/maria-claudia/img/eu.jpg);
+width: 100px;
+}
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: .8rem;
+
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+  margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+  color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+  max-width: 10px;
+  margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+}
+
+}
