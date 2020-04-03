@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+  color: #63458A;
+}
+
+.main p {
+font-size: 30px;
+line-height: 40px;
+}
+
+..minibio {
+  display: flex;
+  flex-direction: column;
+}
+
+.minibio__img {
+  max-width: 210px;
+  margin: 0 auto;
+}
+
+.quote {
+  border: 1px solid #63458A;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 40px 0;
+  
+}
+
+
+.quote h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 80%;
+}
+
+/* --- NAV --- */
+.navegacao {
+  background-color: #674582;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 1.5rem;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+.navegacao__logo {
+max-width: 200px;
+}
+
+.navegacao__itens {
+  display: none;     
+}
+
+.navegacao__menu-hamburguer img {
+background-color: #C083B9;
+border-radius: 5px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+
+.header {
+  min-height: 70vh;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+              url(../../elza-soares/img/es-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+/*    padding: 11rem 2rem 5rem 2rem;*/
+}
+
+
+.sobre-autora {  
+  background-color: #E4B7E5;
+  text-align: center;
+  color: #63458A;
+  margin-top: 40px;
+}
+
+.sobre-autora__container{
+  display: flex;
+  align-items: center;
+}
+
+.sobre-autora__foto {
+  max-width:210px;
+}
+
+.sobre-autora__texto {
+  margin: 0 auto;
+}
+
+.titulo-bafao {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.minibio__titulo {
+  text-align: center;
+}
+
+.sobre-autora__texto {
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.button {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.button__link {
+  text-transform: uppercase;
+  background: #C083B9;
+  border-radius: 10px;
+  padding: 19px 66px;  
+  font-weight: bold;
+  color: #fff;
+}
+
+
+/* --- FOOTER --- */
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: .8rem;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+  margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+  color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+  max-width: 10px;
+  margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+}
+
+
+@media screen and (min-width:421px){
+  
+  .quote {
+    padding: 15px 20px;
+  }
+
+
+  .sobre-autora__container{
+    max-width: 70%;
+    margin: 0 auto;
+  } 
+
+  .sobre-autora__texto {
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: start;
+  }
+  
+  }
+
+  @media screen and (min-width:700px){
+
+    html {
+      font-size: 14px; 
+      font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .container {
+      margin: 0 auto;
+      width: 70%;
+      }
+
+    .navegacao__menu-hamburguer {
+      display: none;
+    }
+
+    .navegacao__nav {
+      display: flex;
+      justify-content: start;
+      font-size: 18px;
+    }
+
+    
+      
+    .navegacao__nav li {
+      font-size: 1.5rem;
+      
+      }      
+    .navegacao__redes-sociais a {
+      margin: 0 1rem;
+      max-width: 44px;
+      }
+
+    .navegacao__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 70%;
+        margin: 0 auto;
+      }
+
+      
+      
+    .navegacao__itens {
+      display: flex;     
+      background-color: #674582;
+      text-align: center;      
+      transition: right 1s;
+      }
+      
+      .navegacao__itens.ativo {
+      display: flex;
+      right: 0;  
+      background-color: #674582;
+      text-align: center;  
+      transition: right 1s;
+      }
+      
+      .navegacao__itens li > a {
+      transition: all .2s;
+      }
+      
+      .navegacao__itens li > a:hover {
+      color: #C083B9;
+      }
+      
+
+      .minibio {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .minibio p {
+        max-width: 300px;
+        margin-left: 20px;
+        margin-right: 0;
+      }
+
+      .minibio__img {
+        max-width: 210px;
+        margin: 0;
+    }
+
+      .sobre-autora__container{
+        max-width: 50%;
+        margin: 0 auto;
+      } 
+
+      ..sobre-autora__texto {
+        flex-grow: 0;
+      }
+
+      .img-historia {
+        margin: 20px 0;
+      }
+
+      .rodape__principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 70%;
+      }
+  }
+
+
+  @media screen and (min-width:1200px){
+
+    html {
+      font-size: 16px;
+    }
+
+
+    .container {
+      margin: 0 auto;
+     max-width: 60%;
+      }
+
+
+      .titulo-bafao {
+       font-size: 60px;
+    }  
+   
+    main {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+      h3 {
+        font-size: 36px;
+      }
+
+    .minibio p {
+      max-width: 50%;
+    }
+
+    .quote {
+      line-height: 50px;
+    }
+
+    .navegacao__box {
+      max-width: 80%;
+           
+    }
+    
+    .navegacao__nav ul {
+      display: flex;
+      
+    }
+
+    .navegacao__nav ul a{
+      font-size: 18px;
+      margin:0px 20px;
+    }
+
+      .rodape__principal {
+     max-width: 80%;
+    }
+
+  }
