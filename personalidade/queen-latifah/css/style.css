@@ -123,7 +123,7 @@ li {
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(../../queen-latifah/img/pattern-queen-latifah-1.jpg);
+                url(../../queen-latifah/img/pattern-queen-latifah.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -161,13 +161,16 @@ section {
 }
 
 .img_persona {
-    width: 23rem;
+    width: 20rem;
     border-radius: 5px;
 }
 
 .text_persona {
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     font-size: 12px;
+    line-height: 1.3;
+    text-align: justify;
+    text-indent: 8px;
 }
 
 .borda_frase{
@@ -179,6 +182,40 @@ section {
     font-weight: 900;
     line-height: 1.6;
     font-size: 13px;
+}
+/* AUTORA */
+.bloco_autora{
+    background-color: #E4B7E5;
+    background-size: cover;
+    color: #63458A;
+    font-weight: 900;
+
+}
+
+.bloco2 {
+    display: flex;
+    margin: 0 80px;
+}
+
+.ifos_autora {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 10.3px;
+}
+
+.img_autora {
+    width: 10rem;
+}
+
+.btn_ver {
+    background-color: #C083B9;
+    /* margin: 2rem 15rem; */
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 3;
+    font-weight: 900;
+    max-width: 180px;
 }
 
 /* FOOTER */
@@ -285,7 +322,7 @@ section {
 
 /* --- HEADER --- */
     .header {
-        background-size: contain;
+        background-size: cover;
         min-height: 75vh;
         text-align: center;
         padding: 5rem 10rem;
@@ -304,22 +341,8 @@ section {
     }
 
     /* --- SECTION MARAVILHOSAS --- */
-    .section_box{
-        margin: 4.5rem;
-    }
-
-    .maravilhosas {
-        padding: 4rem 0;
-    }
-
-    .maravilhosas__box > div {
-        max-width: 200px;
-        margin: 5rem;
-    }
-
-    .maravilhosas__perfil p {
-        font-size: 1.5rem;
-        margin-top: 1rem;
+    main {
+        margin: 4rem 12rem;
     }
 
     .img_text_persona {
@@ -329,8 +352,10 @@ section {
     }
 
     .img_persona {
-        width: 35rem;
+        width: 25rem;
         border-radius: 5px;
+        /*! margin: auto 2rem; */
+        margin-right: 2.7rem;
     }
 
     /* --- FOOTER --- */
@@ -370,21 +395,22 @@ section {
     .principal {
         max-width: 650px;
     }
+    .img_persona_secundary {
+        display: flex;
+        margin: 3rem auto;
+    }
 }
 
 /* DESKTOP */
 @media (min-width: 1440px) {
-    .navegacao__box {
+    /*.navegacao__box {
         max-width: 80%;
-    }
+    }*/
     .header {
         min-height: 90vh;
     }
     .navegacao__itens li {
         font-size: 1.5rem;
         margin: 0 1rem;
-    }
-    .principal {
-        max-width: 650px;
     }
 }
