@@ -230,8 +230,9 @@ main {
 
 .perfil_resumo {
     width: 80%;
-    margin-left: 40px;
+
 }
+
 .preta-rara_cita {
     border: #674582 1px solid;
     margin: 20px auto;
@@ -244,7 +245,7 @@ main {
     margin-top: 80px;
 }
 
-.preta-rara_historia{
+.preta-rara_historia {
     padding: 20px;
 }
 
@@ -268,8 +269,9 @@ main {
 
 .sobre {
     display: block;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
     font-weight: 600;
     color: #63458A;
 }
@@ -496,6 +498,7 @@ main {
     }
   }
 
+  /* CELULAR */
   @media (max-width: 320px) {
     .header {
       min-height: 50vh;
@@ -506,10 +509,14 @@ main {
       text-align: center;
     }
 
+    .perfil_resumo {
+      width: auto;
+  }
+
     .preta-rara_cita p {
       font-size: 13px;
     }
-    .sobre {
+    .sobre p{
       font-size: 10px;
     }
 
