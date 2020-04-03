@@ -1,0 +1,478 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    margin: 20px 20px;
+    color: #63458a;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h4 {
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    width: 100%;
+}
+
+.foto_meio {
+    max-width: 500px;
+    width: 100%;
+    align-self: center;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro_bio {
+    min-width: 100px;
+    letter-spacing: 0.08rem;
+    padding: 5px 5px;
+    margin-bottom: 15px;
+}
+
+.portrait {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100%;
+    border-radius: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+/* define o tamanho da caixa */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+
+/* --- BOTAO --- */
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_botao {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    background: plum;
+    border-radius: 4px;
+    margin: 50px 100px;
+    border: none;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+.btn_botao:hover {
+    background-color: #674582;
+}
+
+
+/* --- NAV --- */
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__itens {
+    position: absolute;
+    right: -700px;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+}
+
+.navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+}
+
+.navegacao__itens li>a {
+    transition: all .2s;
+}
+
+.navegacao__itens li>a:hover {
+    color: #C083B9;
+}
+
+.navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+}
+
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: #63458a;
+    align-content: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+
+.text_box {
+    display: block;
+    text-align: center;
+    border: 1px solid #63458a;
+    padding: 30px;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 3.5rem;
+}
+
+
+/* AUTORA  */
+
+.autora {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    color: #63458a;
+    background: plum;
+    padding: 0px 0px;
+    font-size: 1.5rem;
+}
+
+.retrato__autora {
+    max-width: 120px;
+    width: 100%;
+}
+
+.autora a:hover {
+    color: white
+}
+
+
+/* --- HEADER --- */
+
+.header {
+    min-height: 80vh;
+    background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../img/dilma-roussef-header.jpg) no-repeat center center;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.central {
+    text-align: center;
+}
+
+
+/*    padding: 11rem 2rem 5rem 2rem;
+
+
+/* --- SECTION MARAVILHOSAS --- */
+
+
+/* --- FOOTER --- */
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.rodape__principal>* {
+    margin: 1rem 0;
+}
+
+.rodape__navegacao>li {
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+    color: #C083B9;
+}
+
+.rodape__logo {
+    max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+    color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+/*** MEDIA QUERIES ***/
+
+@media (max-width: 700px) {
+    .navegacao__redes-sociais {
+        display: none;
+    }
+}
+
+
+/* TABLET */
+
+@media (min-width: 768px) {
+    /* --- NAV --- */
+    .navegacao__itens {
+        position: static;
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
+    .navegacao__nav {
+        margin-bottom: 0;
+    }
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .navegacao__itens li {
+        font-size: 1.2rem;
+        margin: 0 .6rem;
+    }
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+    /* --- HEADER --- */
+    .principal__titulo {
+        font-size: 2.9rem;
+    }
+    .principal__sub {
+        font-size: 1.8rem;
+    }
+    .principal__btn {
+        margin: 0;
+    }
+    /* --- SECTION MARAVILHOSAS --- */
+    .header {
+        background-size: cover;
+    }
+    /* CONTEUDO PRINCIPAL */
+    /* --- FOOTER --- */
+    .rodape {
+        padding-top: 0;
+    }
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .rodape__logo img {
+        max-width: 250px;
+    }
+    .rodape__navegacao>li {
+        font-size: 1.5rem;
+        ;
+    }
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    .intro_bio {
+        max-width: 500px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    /* --- OUTRA HEADER --- */
+    .header-personalidade {
+        padding: 0 20rem;
+        display: flex;
+        align-items: flex-end;
+    }
+    .header-personalidade__titulo {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    main {
+        margin: 20px 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .principal {
+        max-width: 650px;
+    }
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    main {
+        margin: 20px 100px;
+    }
+    .header {
+        background-size: cover;
+    }
+    .intro_bio {
+        max-width: 500px;
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 1440px) {
+    main {
+        margin: 20px 100px;
+    }
+    .navegacao__box {
+        max-width: 80%;
+    }
+    .header {
+        min-height: 90vh;
+    }
+    .navegacao__itens li {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+    }
+    .principal {
+        max-width: 650px;
+    }
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    .intro_bio {
+        max-width: 500px;
+        text-align: left;
+        margin-left: 20px;
+    }
+}
