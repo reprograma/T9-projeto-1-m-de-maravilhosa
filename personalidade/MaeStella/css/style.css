@@ -1,3 +1,8 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 nav {
     display:flex;
     background-color: #63458A ;
@@ -53,7 +58,17 @@ nav {
 .teste1{
     width: 100%;
     text-align: center;
+    font-size: 25px;
 
+}
+
+.titulo1{
+    margin: 80px;
+}
+.frase_impacto{
+    font-size: 25px;
+    color:#63458a;
+    
 }
 
 .container{
@@ -63,4 +78,109 @@ nav {
 
 .parte1{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
+
+.caixa_borda{
+    border:#674582 1px solid;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.caixa_texto{
+    width: 50%;
+    margin:auto;
+    font-family: 
+
+}
+
+.citacao{
+    font-weight: bolder;
+}
+
+
+.texto__conteudo{
+    font-size: 20px;
+    color: #63458a;
+    padding: 20px;
+    text-align: left;
+}
+
+.texto_2{
+    font-size: 25px;
+    color: #63458a;
+}
+
+.texto_3{
+    font-size: 25px;
+    color: #63458a;
+}
+
+.caixa_autora{
+    width: 100%;
+    height: 150px;
+    background-color: #e4b7e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.autora_texto{
+    padding: 10px;
+}
+
+.caixa_btn{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+ .btn{
+     width: 15%;
+     background-color: #c083b9;
+
+     
+ }
+
+
+ .rodape {
+    padding-top: 0;
+    }
+    
+    .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    }
+
+    .rodape__logo img {
+        max-width: 250px;
+        }
+        
+        .rodape__navegacao > li {
+        font-size: 1.5rem;;
+        }
+        .header-personalidade {
+            padding: 0 20rem;
+            display: flex;
+            
+            align-items: flex-end;
+            }
+            
+            .header-personalidade__titulo {
+            font-size: 3.5rem;
+            text-align: center;
+            }
+
+
+  
