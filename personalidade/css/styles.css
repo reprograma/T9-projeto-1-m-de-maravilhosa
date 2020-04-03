@@ -1,3 +1,6 @@
+/*DESKTOP FIRST*/
+
+
 * {
     box-sizing: border-box;
 }
@@ -36,41 +39,7 @@ li {
   max-width: 960px;
 }
 
-/* --- BOTAO --- */
-/*
-.btn {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem; */
-  
-  /*
-  .btn_roxo {
-    color: white;
-    background-color: #C083B9;
-    display: block;
-    max-width: 250px;
-    text-align: center;
-    transition: all .5s;
-    margin: 0 auto;
-  }
-  
-  .btn_roxo:hover,
-  .btn_roxo:focus {
-    transform: translateY(-1rem);
-    box-shadow: 0 10px 10px rgba(0,0,0,.2);
-    background-color: rgb(192, 156, 188);
-  }
-  
-  .btn_roxo:active {
-    transform: translateY(-.5rem);
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
-  }
-  
-  .btn_center {
-    margin: 0 auto; 
-  } */
+
   
   /* --- NAV --- */
   .navegacao {
@@ -96,15 +65,18 @@ li {
       width: 90%;
   }
   
+
+
   .navegacao__itens {
-    position: absolute;
-    right: -700px;
-    top: 85px;
-    width: 100%;
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+   background-color: #674582;
     text-align: center;
-    padding: 3rem 0;
     transition: right 1s;
   }
+
   
   .navegacao__itens.ativo {
     display: block;
@@ -123,34 +95,45 @@ li {
   .navegacao__itens li > a:hover {
     color: #C083B9;
   }
-  /*
-  .navegacao__menu-hamburguer img {
-    background-color: #C083B9;
-    border-radius: 5px;
-  }*/
-  /*
+
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    }
+
+    .navegacao__itens li {
+      font-size: 1.2rem;
+      margin: 0 .6rem;
+  }
+  
+
+
   .navegacao__nav {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
     margin-right: 2rem;
-  }
+   }
   
-  .navegacao__nav li {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  
-  .navegacao__redes-sociais a {
+   .navegacao__redes-sociais a {
     margin: 0 1rem;
-  } */
-  
+}
+
+.navegacao__menu-hamburguer {
+  display: none;
+}
+
+
+ 
   
   /* --- HEADER --- */
   .header {
       min-height: 80vh;
       height: 500px;
-      background: linear-gradient(rgba(255, 0, 255, 0.2),
-                                  rgba(255, 0, 255, 0.2)),
-                  url(../../img/home-personalidade/silvia-b.jpg);
+      background: linear-gradient(rgba(238, 210, 238, 0.35),
+                                  rgba(140, 81, 140, 0.91)),
+                  url(../../img/home-personalidade/calibabruxa.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       display: flex;
@@ -165,6 +148,9 @@ li {
     text-transform: uppercase;
     font-size: 5.2rem;
     font-weight: 900;
+    text-shadow: -1px 0 plum, 0 2px plum,
+    2px 0 plum, 0 -1px plum;
+     
   }
   
   .principal__sub {
@@ -173,44 +159,7 @@ li {
     font-size: 1.5rem;
   }
   
-  /* --- SECTION MARAVILHOSAS --- */
-  /*.maravilhosas__titulo {
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    color: #63458a;
-    font-size: 2rem;
-    text-align: center;
-  }
-  
-  .maravilhosas__box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    color: #63458a;
-  }
-  
-  .maravilhosas__perfil {
-    max-width: 120px;
-    margin: 2rem;
-  }
-  
-  .maravilhosas__perfil img {
-    background-color: #63458a;
-    border-radius: 10px;
-  }
-  
-  .maravilhosas__perfil a img {
-    transition: all .5s;
-  }
-  
-  
-  .maravilhosas__perfil a:hover {
-    text-decoration: underline;
-  }
-  
-  .maravilhosas__perfil a:hover img {
-    box-shadow: 0 3px 10px rgba(0,0,0,.2);
-  } */
+ 
   /* MAIN --*/
   .conteudo {
     color: #674582;
@@ -317,6 +266,8 @@ li {
       font-weight: bold;
     }
 
+   
+
   /* --- FOOTER --- */
   .rodape {
     background-color: #323534;
@@ -371,43 +322,25 @@ li {
     color: cornsilk;
 
   }
-  /*.rodape__logo {
-    max-width: 200px;
-  }
-  
-  .rodape__redes-sociais a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s;
-  }
-  
-  .rodape__redes-sociais a:hover {
-    color: #C083B9;
-  }
-  
-  .rodape__redes-sociais img {
-    max-width: 10px;
-    margin-right: .5rem;
-  }
-  
-  .rodape__redes-sociais span {
-    display: flex;
-    font-size: 1.5rem;
-  }
-  
-  .rodape__cc {
-    width: 100%;
-    background-color: #292A2A;
-    font-size: 1rem;
-    opacity: 0.5;
-    text-align: center;
-  } */
+ 
   
   
   /*** MEDIA QUERIES ***/
   /* Iphone */
 @media only screen and (max-width: 667px) {
+
+  .navegacao__menu-hamburguer {
+    display: flex;
+  }
+
+  .navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+  }
+
+  .navegacao__itens{
+    display: none;
+  }
   .conteudo__historia-imagem {
     height: 190px;
     }
@@ -446,6 +379,175 @@ li {
 .rodape__navegacao {
   flex-direction: column;
 }
+
+
+
+}
+
+
+@media only screen and (max-width: 736px) {
+
+  .navegacao__menu-hamburguer {
+    display: flex;
+  }
+
+  .navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+  }
+
+  .navegacao__itens{
+    display: none;
+  }
+  .conteudo__historia-imagem {
+    height: 190px;
+    }
+  
+  .conteudo__citacao {
+      padding: 20px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin: 0 0 0 0;   
+   }
+
+  .conteudo__perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragrafo__perfil {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  h3 {
+    margin-top:30px;
+  }
+
+  .foto__perfil {
+    margin-left: 0px;
+  }
+
+  .container__conteudo-autora {
+   max-width: 100%;
+}
+
+.rodape__navegacao {
+  flex-direction: column;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 812px) {
+
+  .navegacao__menu-hamburguer {
+    display: flex;
+  }
+
+  .navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+  }
+
+  .navegacao__itens{
+    display: none;
+  }
+  .conteudo__historia-imagem {
+    height: 190px;
+    }
+  
+  .conteudo__citacao {
+      padding: 20px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin: 0 0 0 0;   
+   }
+
+  .conteudo__perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragrafo__perfil {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  h3 {
+    margin-top:30px;
+  }
+
+  .foto__perfil {
+    margin-left: 0px;
+  }
+
+  .container__conteudo-autora {
+   max-width: 100%;
+}
+
+.rodape__navegacao {
+  flex-direction: column;
+}
+
+
+
+}
+
+/* IPAD*/
+
+@media only screen and (max-width: 1024px) {
+
+  .navegacao__menu-hamburguer {
+    display: flex;
+  }
+
+  .navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+  }
+
+  .navegacao__itens{
+    display: none;
+  }
+ 
+
+  .conteudo__perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragrafo__perfil {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  h3 {
+    margin-top:30px;
+    text-align: center;
+  }
+
+  .foto__perfil {
+    margin-left: 0px;
+  }
+
+  .container__conteudo-autora {
+   max-width: 100%;
+
+}
+
+
+
+
 
 
 
