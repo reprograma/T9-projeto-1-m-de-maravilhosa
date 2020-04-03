@@ -93,6 +93,8 @@ main {
     position: fixed;
     width: 100%;
     justify-content: space-around;
+
+}
 }
 
 .navegacao__logo {
@@ -139,6 +141,7 @@ main {
 .navegacao__menu-hamburguer img {
   background-color: #C083B9;
   border-radius: 5px;
+  display: none;
 }
 
 .navegacao__nav {
@@ -162,7 +165,7 @@ main {
     height: 500px;
     background: linear-gradient(rgba(255, 0, 255, 0.2),
                                 rgba(255, 0, 255, 0.2)),
-                url(../../../../T9-projeto-1-m-de-maravilhosa/img/bg-banner-claro.png);
+                url(../img/jocelia-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -210,7 +213,7 @@ h1 {
 
 }
 .img-sobre-jocelia {
-  width: 210px;
+  width: 240px;
   max-width: 100%;
   border-radius: 20px;
 }
@@ -280,7 +283,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2000px;
+ 
   height: 214px;
   left: 0px;
   top: 2375px;
@@ -434,11 +437,96 @@ h1 {
   text-align: center;
 }
 
-
+/*
 /*** MEDIA QUERIES ***/
-/* TABLET */
-@media (min-width: 768px) {
-    /* --- NAV --- */
+@media (max-width: 1400px) {
+
+  main {
+    margin: 90px 160px;
+  }
+  
+}
+@media (max-width: 1114px){
+  .img-historia {
+    width: 100%;
+  }
+  .frase-1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 763px) {
+  html {
+    font-size: 0.8rem;
+  } 
+  main {
+    margin: 90px 110px;
+  }
+
+@media (max-width: 600px) {
+  main {
+    margin: 90px 60px;
+  }
+  .sobre-jocelia {
+    flex-direction: column;
+    width: 100%;
+    
+  }
+} 
+/*
+@media (min-widht: 375px) and (max-widht: 0px) {
+  /* --- NAV --- *
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+}
+
+.navegacao__nav {
+    margin-bottom: 0;
+}
+
+.navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.navegacao__itens li {
+    font-size: 1.2rem;
+    margin: 0 .6rem;
+}
+
+
+.navegacao__menu-hamburguer {
+display: none;
+}
+
+/* --- HEADER --- */
+.header {
+    min-height: 75vh;
+    text-align: left;
+    padding: 5rem 10rem;
+}
+
+.principal__titulo {
+    font-size: 2.9rem;
+}
+
+.principal__sub {
+    font-size: 1.8rem;
+}
+
+.principal__btn {
+    margin: 0;
+}  
+
+}
+
+  /* --- NAV --- */
     .navegacao__itens {
         position: static;
         display: flex;
@@ -463,9 +551,10 @@ h1 {
         margin: 0 .6rem;
     }
     
-    .navegacao__menu-hamburguer {
-        display: none;
-    }
+ 
+  .navegacao__menu-hamburguer {
+    display: none;
+}
 
     /* --- HEADER --- */
     .header {
@@ -539,4 +628,13 @@ h1 {
     }
 }
 
-@
+@media (min-width: 1024px) {
+  .principal {
+      max-width: 650px;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+
+}
