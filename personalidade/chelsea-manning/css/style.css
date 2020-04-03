@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -207,6 +208,11 @@ article {
     text-align: right;
 }
 
+#link {
+    color: purple;
+    font-size: italic;
+    text-decoration: underline;
+}
 .historia {
     padding: 2rem;
 }
@@ -256,7 +262,7 @@ article {
 }
 
 
-.list__link {
+.autora__info__list__link {
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 3rem;
@@ -281,6 +287,10 @@ article {
     margin-bottom: 5rem;
 }
 
+.fontes {
+    color: purple;
+    margin:0;
+}
 
 .footer__box {
     width: 100%;
@@ -412,6 +422,11 @@ article {
 
     .autora__img {
         max-height: 100px;
+    }
+
+    .fontes {
+        display: flex;
+        flex-direction: column;
     }
 
     .footer__box {
