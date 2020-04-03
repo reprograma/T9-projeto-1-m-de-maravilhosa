@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    color: #63458A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* ------DESKTOP FIRST ------ */
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    width: 100%;
+    justify-content: space-around;
+    font-size: 12px;
+    line-height: 22px;
+    position: fixed;
+    z-index: 99;
+}
+
+.navegacao__box {
+    display: flex;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__itens {
+    display: flex;
+    flex-direction: row;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__nav {
+    display: flex;
+}
+
+.navegacao__menu-hamburguer {
+    display: none;
+}
+
+
+/* --- HEADER --- */
+
+.header {
+    min-height: 80vh;
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+            rgba(255, 0, 255, 0.2)),
+        url(../img/lizzo-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/* --- SECTION LIZZO --- */
+
+.lizzo {
+    align-items: center;
+    padding: 20px 190px;
+}
+
+
+.lizzo__title {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.lizzo__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lizzo__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.lizzo__txt {
+    width: 550px;
+    padding: 40px 27px;
+    font-size: 2rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.box__border {
+    align-items: center;
+    border: 1px solid #674582;
+    margin: 30px;
+}
+
+.box_txt {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.historia {
+    text-align: left;
+    font-size: 2rem;
+    margin: 40px 20px;
+}
+
+.historia__img {
+    position: relative;
+    max-width: 100%;
+    width: 805px;
+    max-height: 393px;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia__text {
+    font-size: 2rem;
+    margin: 25px 0;
+}
+
+.autora {
+    background: #E4B7E5;
+
+}
+
+.autora__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.autora__img {
+    width: 150px;
+    height: 209px;
+}
+
+.autora__links {
+    display: block;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+    .btn {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 1rem 3rem;
+        border-radius: 5px;
+        font-size: 1.8rem;
+    }
+
+    .btn_roxo {
+        color: white;
+        background-color: #C083B9;
+        display: block;
+        max-width: 250px;
+        text-align: center;
+        transition: all .5s;
+
+        margin: 50px auto;
+    }
+
+    .btn_roxo:hover,
+    .btn_roxo:focus {
+        transform: translateY(-1rem);
+        box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+        background-color: rgb(192, 156, 188);
+    }
+
+    .btn_roxo:active {
+        transform: translateY(-.5rem);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    }
+
+    .btn_center {
+        margin: 0 auto;
+    }
+
+    .footer {
+        background: #323534;
+        color: #F3F3F3;
+    }
+    
+    .footer__menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px 60px;
+        font-size: 1.4rem;
+    }
+    .footer__links {
+        display: block;
+    }
+
+    .footer__facebook {
+        display: flex;
+    }
+
+    .img-fb {
+        width: 20px;
+    }
+
+    .footer__creditos {
+        background: #292A2A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 740px) {
+
+        .lizzo {
+            padding: 20px 20px;
+        }
+
+        .navegacao__menu-hamburguer {
+            display: block;
+        }
+
+        .navegacao__itens {
+            display: none;
+        }
+
+        .lizzo__container {
+            align-items: center;
+        }
+
+        .lizzo__img {
+            align-items: center;
+        }
+
+        .lizzo__txt {
+            text-align: justify;
+        }
+
+        .box__border {
+            align-items: center;
+            border: 1px solid #674582;
+            margin: 5px;
+        }
+    }
+
+    @media screen and (min-width: 751px) and (max-width: 1080px) {
+        .lizzo {
+
+            padding: 20px 80px;
+        }
+    }
