@@ -8,11 +8,7 @@
     width: 50%;
     margin-top: 2%;
     height: 65px;
-<<<<<<< HEAD
     margin-left: 21px;
-=======
-    margin-left:21px;
->>>>>>> master
 }
 
 .mobile{
@@ -23,9 +19,17 @@
     height: 88px;
 }
 
-.moobile__menu{
-    
+.mobile__menu{
+    margin-top: 25px;
+    margin-right: 25px;
 }
+
+.menu__img{
+    max-width: 186px;
+    margin-left: 38px;
+}
+    
+
 
 .nav__menu{
     display: flex;
@@ -177,6 +181,11 @@ h3{
     width: 17%;
 }
 
+h4, h5{
+    margin:0;
+    color: #FFFF;
+}
+
 .botao{
     margin: auto;
     width: 55%;
@@ -191,7 +200,7 @@ h3{
     font-size: 20px;
     text-transform: uppercase;
     height: 49px;
-    background: #C083B9;
+    background-color: #C083B9;
     border-radius: 10px;
     color: white;
 }
