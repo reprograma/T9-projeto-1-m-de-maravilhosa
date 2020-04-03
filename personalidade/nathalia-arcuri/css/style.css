@@ -26,7 +26,7 @@ li {
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 .img-responsive {
-width: 80%;
+width: 60%;
 }
 
 /* define o tamanho da caixa */
@@ -126,6 +126,7 @@ max-width: 960px;
   width: 100%;
   text-align: center;
   color: white;
+  background-position: center;
   
 /*    padding: 11rem 2rem 5rem 2rem;*/
 }
@@ -308,7 +309,7 @@ max-width: 960px;
 
 /*** MEDIA QUERIES ***/
 /* TABLET */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   /* --- NAV --- */
 .navegacao__itens {
   position: static;
@@ -394,21 +395,211 @@ max-width: 960px;
 }
 }
 
-@media (min-width: 1024px) {
-.principal {
-  max-width: 650px;
-}
-}
 
 /* DESKTOP */
-@media (min-width: 1900px) {
+@media (min-width: 600px) {
 /* .navegacao__box {
     max-width: 80%;
 } */
 .header {
  min-height: 90vh;
 }
+.container{
+  text-align: center;
+  width: auto;
+}
 .navegacao__itens li {
   font-size: 1.5rem;
   margin: 0 1rem;
 }
+
+.img-responsive{
+   max-width: 350px; 
+}
+.main {
+  font-size: 2.0rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.descricao{
+  margin-bottom: 50px;
+}
+.sub-titulo{
+  margin-top: 50px;
+}
+.img-texto{
+  display: flex;
+  justify-content: space-around;
+
+}
+.img-texto-1 {
+  text-align: center;
+  justify-content: center;
+}
+.historia{
+  justify-content: space-between;
+}
+.autora-caixa{
+  justify-content: center;
+}
+.autora-site {
+  margin-left: 40px;
+  font-size: 1.7rem;
+  font-weight: bold;
+
+}
+.autora-img{
+  width: 20%;
+  margin-left: 25%;
+}
+
+.rodape {
+  padding-top: 0;
+}
+
+.rodape__principal {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape__logo img {
+  max-width: 250px;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.5rem;;
+}
+
+@media (min-width: 720px) {
+  /* .navegacao__box {
+      max-width: 80%;
+  } */
+  .header {
+   min-height: 90vh;
+  }
+  .container{
+    text-align: center;
+    width: auto;
+  }
+  .navegacao__itens li {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+  
+  .img-responsive{
+     max-width: 350px; 
+  }
+  .main {
+    font-size: 2.0rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .descricao{
+    margin-bottom: 50px;
+  }
+  .sub-titulo{
+    margin-top: 50px;
+  }
+  .img-texto{
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .img-texto-1 {
+    text-align: center;
+    justify-content: center;
+  }
+  .historia{
+    justify-content: space-between;
+  }
+  .autora-caixa{
+    justify-content: center;
+  }
+  .autora-site {
+    margin-left: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+  
+  }
+  .autora-img{
+    width: 20%;
+    margin-left: 25%;
+  }
+  
+  .rodape {
+    padding-top: 0;
+  }
+  
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .rodape__logo img {
+    max-width: 250px;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 2.rem;
+  }
+
+
+
+@media (min-width: 1100px) {
+  .principal {
+    max-width: 650px;
+  }
+  .main {
+    font-size: 2.0rem;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .rodape {
+    padding-top: 0;
+  }
+  
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .rodape__logo img {
+    max-width: 250px;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 2.rem;
+  }
+
+
+
+
+
+
+
+  @media (min-width: 1300px) {
+    .principal {
+        max-width: 650px;
+  }
+    .main {
+        font-size: 2.0rem;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    @media (min-width: 1400px) {
+      .principal {
+          max-width: 650px;
+    }
+      .main {
+          font-size: 2.0rem;
+          margin-left: 300px;
+          margin-right: 300px;
+      }
+  
