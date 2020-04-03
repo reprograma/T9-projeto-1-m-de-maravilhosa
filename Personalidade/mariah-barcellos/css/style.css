@@ -16,6 +16,7 @@ html {
 }
 
 body {
+  background-color: rgb(212, 90, 41)red ;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -104,6 +105,7 @@ li {
 }
 
 .navegacao__itens {
+ display: none;
   position: absolute;
   right: -700px;
   top: 85px;
@@ -116,7 +118,8 @@ li {
 }
 
 .navegacao__itens.ativo {
-  display: block;
+  
+  display: none;
   right: 0;
   top: 85px;
   width: 100%;
@@ -158,7 +161,7 @@ li {
   height: 300px;
   background: linear-gradient(rgba(255, 0, 255, 0.2),
                               rgba(255, 0, 255, 0.2)),
-              url(../img/mariah-filhos.png);
+              url(../img/mariah-filhos-gemeos.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 0rem;
@@ -168,42 +171,61 @@ li {
   color: white;
 }
 .mulher_maravilhosa {
- font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  color: rgb(156, 51, 69)
-  
-  
-
-
-}
-.mulher_maravilhosa {
   font-weight: 300;
   margin: 2rem 0 3rem 0;
-  font-size: 1.5rem;
+  font-size: 2.9rem;
   text-align: center;
+  color: rgb(73, 73, 158);
+  
+
 
 }
-  .imagem_maravilhosa{
-    background-image: url(../img/mariah-filhos-gemeos.png);
-    width: 300px;
+.principal_título {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+font-size: 3.3rem;
+color: white;
+text-align; left;
+
   }
+
+.mulher_maravilhosa {
+  font-weight: 300;
+margin: 2rem 0 3rem 0;
+font-size: 2.9rem;
+text-align: center;
+color: rgb(73, 73, 158);
+
+}
+ 
   
   .expressão_usada {
-    background-color: white; 
-    border:4px solid  #E5E5E5; 
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    background-color: white;
+    border: 4px solid #E5E5E5;
     padding: 10px;
     text-align: center;
-    text-size-adjust:5;
+    background-position: center;
     color: rgb(73, 73, 158);
     font-size: 20px;
+    width: 180px;
+    padding-top: 70%;
   }
  .Sobre {
  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
  color: rgb(73, 73, 158);
 text-align: center;
 padding: 3rem;
-font-size: 18px;
+font-size: 22px;
  }
  .Parágrafo  {
-font-size:10px
-
+font-size:10px;
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ }
+ .maravilhosa {
+background-image: url(../img/mariah-filhos.png);
+width: 320px;
+margin-left: 11px;
+display: flex;
  }
