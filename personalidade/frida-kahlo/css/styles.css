@@ -226,6 +226,8 @@ text-align: justify;
 width: 100%;
 }
 
+
+
 .principal__quote {
   border: 1px solid #63458A;
   box-sizing: border-box;
@@ -440,6 +442,72 @@ padding: 5px 40px
     .principal {
       padding: 18px 80px;
     }
-   
-}
 
+    .principal__quote {
+      padding: 30px;
+      width: 100%;
+    }
+
+  }
+  
+  
+  /*DESKTOP*/
+
+  @media screen and (min-width: 1200px) {
+
+    /* --- NAV --- */
+    .navegacao__itens {
+      position: static;
+      display: flex;
+      padding: 0;
+      width: auto;
+    }
+  
+    .navegacao__nav {
+      margin-bottom: 0;
+    }
+  
+    .navegacao__itens ul {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .navegacao__itens li {
+      font-size: 1.2rem;
+      margin: 0 .6rem;
+    }
+  
+    .navegacao__menu-hamburguer {
+      display: none;
+    }
+  
+    .principal__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 30px;
+     }
+  
+     .principal__mini-bio {
+       margin-left: 30px;
+     }
+  
+      .subtitulo__historia {
+        text-align: left;
+       
+      }
+  
+      .principal {
+        padding: 18px 160px;
+      }
+  
+      .principal__quote {
+        padding: 30px;
+        width: 100%;
+      }
+  
+    }
+    
