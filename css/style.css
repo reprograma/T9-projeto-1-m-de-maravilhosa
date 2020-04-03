@@ -82,6 +82,12 @@ li {
   margin: 0 auto;
 }
 
+.img-responsive {
+  width: 100px;
+  align-items: center;
+  
+}
+
 /* --- NAV --- */
 .navegacao {
     background-color: #674582;
