@@ -269,8 +269,13 @@ main {
 .sobre {
     display: block;
     font-size: 16px;
-    padding: 32px;
+    padding: 20px;
     font-weight: 600;
+    color: #63458A;
+}
+
+.sobre h2{
+    color: #292A2A;
 }
 
 .btnResponsivo {
@@ -403,7 +408,7 @@ main {
 
     /* --- HEADER --- */
     .header {
-        min-height: 75vh;
+        min-height: 85vh;
         text-align: left;
         padding: 5rem 10rem;
     }
@@ -416,7 +421,7 @@ main {
       margin: 0;
     }
 
-    /* --- CONTEUDO ---*/
+    /* --- MAIN ---*/
     .preta-rara_perfil {
       display: flex;
       justify-content: space-between;
@@ -482,7 +487,7 @@ main {
         max-width: 650px;
     }
 
-    /* ---- CONTEÚDO ---*/
+    /* ---- MAIN ---*/
     .preta-rara_cita {
       height: 125px;
       width: 86%;
