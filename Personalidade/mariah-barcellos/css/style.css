@@ -1,0 +1,324 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- GERAL --- */
+/*
+unidades preferidas para esse CSS
+margin, padding: rem
+font-size: rem
+width: %
+max-width: % ou px
+*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+  background-color: rgb(212, 90, 41)red ;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none ;
+}
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+    width: 100%;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  /* --- BOTAO --- */
+  
+  .btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+  }
+  
+  .btn_roxo {
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+    transition: all .5s;
+    margin: 0 auto;
+  }
+  
+  .btn_roxo:hover,
+  .btn_roxo:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: rgb(192, 156, 188);
+  }
+  
+  .btn_roxo:active {
+    transform: translateY(-.5rem);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  }
+  
+  .btn_center {
+    margin: 0 auto;
+  }
+  /* --- NAV --- */
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    background-position-y:0rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__itens {
+ display: none;
+  position: absolute;
+  right: -700px;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  background-position-y:0rem;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens.ativo {
+  
+  display: none;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens li > a {
+  transition: all .2s;
+}
+  
+  .navegacao__itens li > a:hover {
+    display: none;
+    color: #C083B9;
+  }
+  
+  .navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+      border-radius: 5px;
+  }
+  .navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+  
+  .navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .navegacao__redes-sociais a {
+    margin: 0 1rem;
+  }
+/* --- HEADER --- */
+.header {
+  min-height: 80vh;
+  height: 300px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                              rgba(255, 0, 255, 0.2)),
+              url(../img/mariah-filhos-gemeos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 0rem;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+}
+.mulher_maravilhosa {
+  font-weight: 300;
+  margin: 2rem 0 3rem 0;
+  font-size: 2.9rem;
+  text-align: center;
+  color: rgb(73, 73, 158);
+  
+
+
+}
+.principal_título {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+font-size: 3.3rem;
+color: white;
+text-align; left;
+
+  }
+
+.mulher_maravilhosa {
+  font-weight: 300;
+margin: 2rem 0 3rem 0;
+font-size: 2.9rem;
+text-align: center;
+color: rgb(73, 73, 158);
+
+}
+ 
+  
+  .expressão_usada {
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    background-color: white;
+    border: 4px solid #E5E5E5;
+    padding: 10px;
+    text-align: center;
+    background-position: center;
+    color: rgb(73, 73, 158);
+    font-size: 20px;
+    padding-top: 6%;
+
+  }
+ .Sobre {
+ font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ color: rgb(73, 73, 158);
+text-align: center;
+padding: 3rem;
+font-size: 22px;
+ }
+ .Parágrafo  {
+font-size:10px;
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ }
+ .maravilhosa {
+background-image: url(../img/mariah-filhos.png);
+width: 320%;
+margin-left: 11%;
+min-height: 80vh;
+height: 300%;
+ }
+ 
+
+ .bio_autora {
+color: rgb(73, 73, 158);
+display:flex;
+max-width: 150px;
+text-align: center;
+text-size-adjust:10px;
+transition: all 5s;
+margin: 0 auto;
+ }
+
+.sobre_autora {
+width: 100%;
+background-color: #E4B7E5;
+}
+
+.imagemm_autora {
+  background-image: url(../../../Autora/maria-claudia/img/eu.jpg);
+width: 100px;
+}
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: .8rem;
+
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+  margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #C083B9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+  color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+  max-width: 10px;
+  margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+}
+
+}
