@@ -130,7 +130,7 @@ h2 {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 47px;
     text-align: center;
     color: #63458A;
@@ -157,6 +157,65 @@ h2 {
     width: 180px;
     height: 3px;
     
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-turma{
+    margin: auto;
+    width: 60%;
+}
+
+.legenda{
+font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+color: #6D6D6D;
+text-align: center;
+}
+
+.outras-maravilhosas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divinha{
+    flex-direction: column;
+}
+
+.legenda-div{
+text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 29px;
+color: #000000;
+
+}
+
+.btn-position{
+    padding: 60px;
+}
+.final-btn{
+    text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  color: white;
+  background-color: #C083B9;
+  display: block;
+  max-width: 250px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* --- FOOTER --- */
@@ -282,6 +341,13 @@ h2 {
         margin: 0;
     }
 
+    .outras-maravilhosas{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+        
+  
 
     /* --- FOOTER --- */
     .rodape {
