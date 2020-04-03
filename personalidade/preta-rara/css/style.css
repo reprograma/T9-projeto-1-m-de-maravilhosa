@@ -244,7 +244,7 @@ main {
     margin-top: 80px;
 }
 
-.preta-rara_historia {
+.preta-rara_historia{
     padding: 20px;
 }
 
@@ -451,9 +451,7 @@ main {
       width: 86vw;
       text-align: center;
 }
-    .preta-rara_historia {
-      padding: 50px;
-    }
+
 
     /* --- FOOTER --- */
     .rodape {
@@ -502,7 +500,7 @@ main {
     .header {
       min-height: 50vh;
     }
-    
+
     main{
       align-items: center;
       text-align: center;
