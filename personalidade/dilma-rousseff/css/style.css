@@ -45,6 +45,10 @@ h4 {
     padding: 20px;
 }
 
+.figcaption {
+    text-align: center;
+}
+
 .titulo {
     text-align: center;
     padding: 0px 0px 20px 0px;
@@ -79,7 +83,7 @@ h4 {
     min-width: 100px;
     max-width: 100px;
     width: 100%;
-    border-radius: 100%;
+    border-radius: 5px;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -107,7 +111,7 @@ h4 {
     font-weight: 600;
     font-size: 1.5rem;
     color: white;
-    background: plum;
+    background: #C083B9;
     border-radius: 4px;
     margin: 50px 100px;
     border: none;
@@ -241,7 +245,7 @@ h4 {
 /* --- HEADER --- */
 
 .header {
-    min-height: 80vh;
+    min-height: 60vh;
     background: linear-gradient(rgba(255, 0, 255, 0.2), rgba(255, 0, 255, 0.2)), url(../img/dilma-roussef-header.jpg) no-repeat center center;
     display: flex;
     align-items: flex-end;
@@ -335,12 +339,6 @@ h4 {
 
 /*** MEDIA QUERIES ***/
 
-@media (max-width: 700px) {
-    .navegacao__redes-sociais {
-        display: none;
-    }
-}
-
 
 /* TABLET */
 
@@ -353,10 +351,13 @@ h4 {
         width: auto;
     }
     .navegacao__nav {
-        margin-bottom: 0;
+        margin: 0px 0px 0px 10px;
+    }
+    .navegacao__box.container {
+        min-width: 700px;
     }
     .navegacao__itens ul {
-        display: flex;
+        display: inline-flex;
         justify-content: space-around;
         width: 100%;
         align-items: center;
@@ -428,6 +429,9 @@ h4 {
 @media (min-width: 1024px) {
     .principal {
         max-width: 650px;
+    }
+    .navegacao__nav {
+        margin: 0px 30px 0px 10px;
     }
     .intro {
         display: flex;
