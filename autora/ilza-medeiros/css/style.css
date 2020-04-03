@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main {
+    color: #63458A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* ------DESKTOP FIRST ------ */
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .2);
+    width: 100%;
+    justify-content: space-around;
+    font-size: 12px;
+    line-height: 22px;
+    position: fixed;
+    z-index: 99;
+}
+
+.navegacao__box {
+    display: flex;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__itens {
+    display: flex;
+    flex-direction: row;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__nav {
+    display: flex;
+}
+
+.navegacao__menu-hamburguer {
+    display: none;
+}
+
+
+/* --- HEADER --- */
+
+.header {
+    min-height: 80vh;
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+            rgba(255, 0, 255, 0.2)),
+        url(../img/equipe.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.ilza {
+    align-items: center;
+    padding: 20px 210px;
+}
+
+
+.ilza__title {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.ilza__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ilza__img {
+    width: 170px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.ilza__txt {
+    width: 550px;
+    padding: 7px 27px;
+    font-size: 1.6rem;
+}
+
+.ilza__txt ul li {
+    font-weight: 700;
+    margin: 0;
+}
+
+.ilza__txt p a {
+    font-weight: 600;
+    font-style: italic;
+    margin: 0;
+}
+
+.linha {
+    background: #63458A;
+    height: 1px;
+    width: 300px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.historia {
+    text-align: left;
+    font-size: 2rem;
+    margin: 40px 20px;
+}
+
+.historia__img {
+    position: relative;
+    max-width: 100%;
+    width: 805px;
+    max-height: 393px;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia__legenda_img {
+    font-size: 1.2rem;
+    color: darkgray;
+    text-align: center;
+}
+
+.historia__text {
+    font-size: 2rem;
+    margin: 25px 0;
+}
+
+.demais__autoras h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.demais__autoras img {
+    width: 110px;
+    border-radius: 5px;
+}
+
+.icone__quadrado {
+    border-radius: 5px;
+    background-color: #674582;
+    height: 110px;
+    width: 110px;
+}
+
+.icone__quadrado p {
+    margin: 0;
+    font-size: 12px;
+    color: black;
+}
+
+.icone__quadrado a {
+    text-decoration: none;
+}
+
+.demais__autoras p {
+    text-align: center;
+}
+
+.icone__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.foto__autora {
+    height: 110px;
+    width: 110px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+.btn_roxo {
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+    transition: all .5s;
+
+    margin: 100px auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+    transform: translateY(-.5rem);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+}
+
+.btn_center {
+    margin: 0 auto;
+}
+
+.footer {
+    background: #323534;
+    color: #F3F3F3;
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+}
+
+.footer__links {
+    display: block;
+}
+
+.footer__facebook {
+    display: flex;
+}
+
+.img-fb {
+    width: 20px;
+}
+
+.footer__creditos {
+    background: #292A2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* --- MEDIA QUERY --- */
+
+@media screen and (max-width: 885px) {
+
+    /* .header {
+        background-position: left;
+    } */
+    .navegacao__menu-hamburguer {
+        display: block;
+    }
+
+    .navegacao__itens {
+        display: none;
+    }
+
+    .ilza {
+        background: cover;
+        padding: 20px 20px;
+    }
+
+    .principal__titulo {
+        font-size: 4.8rem;
+    }
+
+    .ilza__title {
+        font-size: 2.2rem;
+    }
+
+
+
+}
+
+@media screen and (min-width: 885px) {
+    .ilza {
+        padding: 20px 120px;
+    }
+
+    
+
+}
