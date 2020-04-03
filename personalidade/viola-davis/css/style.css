@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+
 .nav{
     display:flex;
     background-color: #63458A ;
@@ -19,9 +23,17 @@
     height: 88px;
 }
 
-.moobile__menu{
-    
+.mobile__menu{
+    margin-top: 25px;
+    margin-right: 25px;
 }
+
+.menu__img{
+    max-width: 186px;
+    margin-left: 38px;
+}
+    
+
 
 .nav__menu{
     display: flex;
@@ -163,6 +175,7 @@ h3{
     width: 100%;
     max-width: 144px;
     text-align: center;
+    
 }
 
 .author_title{
@@ -170,7 +183,22 @@ h3{
 }
 
 .author__box{
-    width: 17%;
+    width: 13%;
+}
+
+.box_1{
+    width: 20%;
+    margin-top: 3%;
+}
+
+.aboutme{
+    padding:5px;
+}
+
+.linha{
+    margin-bottom:0;
+    margin-top:0;
+    color:#ffffff;
 }
 
 .botao{
@@ -187,7 +215,7 @@ h3{
     font-size: 20px;
     text-transform: uppercase;
     height: 49px;
-    background: #C083B9;
+    background-color: #C083B9;
     border-radius: 10px;
     color: white;
 }
