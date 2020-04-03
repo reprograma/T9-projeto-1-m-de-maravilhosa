@@ -201,18 +201,71 @@ padding: 0;
 }
 
 .img__perfil {
-  display: inline;
+  width: 201px;
+  height: 210px;
+  left: 380px;
+  top: 822px;
+  background: #63458A;
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
 }
 
 .img__perfil__img {
-align-items: center;
+  margin-left: 87px;
+  border-radius: 94px;
+  position: relative;
+  left: -81px;
+  top: 9px;
+  z-index: 2;
+  height: 193px;
+  display: flex;
+}
+
+.perfil {
+  margin: 0 33px;
 }
 
 .perfil__text {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
-  font-size: 10px;
-  line-height: 47px;
+  font-size: 13px;
+  line-height: 24px;
   color: #63458A;
+}
+
+.perfil__text__text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.frase {
+  min-height: 100%;
+  border: 1px solid #63458A;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px;
+  margin-top: 26px;
+}
+
+.frase__impacto {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: #63458A;
+}
+
+.historia__malala{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  color: #63458A
+}
+
+.historia__malala__subtitulo{
+ 
 }
