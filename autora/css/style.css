@@ -124,16 +124,13 @@ li {
     color: white;
     /*padding: 11rem 2rem 5rem 2rem;*/
 }
-.principal{
-    text-transform: uppercase;
-    display: inline;
-    text-align: center;
-}
+
 .principal__titulo {
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  font-weight: 900;
-  text-align: center;
+text-transform: uppercase;
+font-size: 3.5rem;
+font-weight: 900;
+text-align: center;
+
 }
 
 /*---Foto TEXTO--*/
@@ -142,11 +139,11 @@ li {
     text-align: center;
     padding: 0;
     margin: 0;
-}
-.titulo{
-font-size: 3.2rem;
-  margin-bottom: 5%;
     color: #63458a;
+  }
+.titulo{
+  font-size: 3.2rem;
+  margin-bottom: 5%;
 }
 
 .img_text_persona{
@@ -165,7 +162,12 @@ text-align: 1.8rem;
     width: 250px;
 }
 .link_prof{
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.0rem;
+  text-align: center;
+  color: #63458a;
 }
 
 main{
@@ -176,8 +178,7 @@ main{
 }
 
 hr{
-
-width: 513px;
+width: 30%;
 height: 0px;
 border: 2px solid #63458A;
 }
@@ -193,30 +194,45 @@ border: 2px solid #63458A;
     justify-content: center;
 }
 
-
-
-
-
-/* ==================DADOS====================== */
-
-.container_dados {
-    margin-top: 30px;
-}
-.dados_titulo{
+/* --- SECTION MARAVILHOSAS --- */
+.maravilhosas__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 2rem;
     text-align: center;
 }
-.dados_imagem {
+
+.maravilhosas__box {
     display: flex;
-    justify-content: space-between; 
+    flex-wrap: wrap;
+
+    text-align: center;
+    color: #63458a;
 }
 
-.dados_imagem-parte {
-    width: 20%;
+.maravilhosas__perfil {
+    max-width: 220px;
+    margin: 2rem;
 }
 
-.nome_maravilhosas{
-    
+.maravilhosas__perfil img {
+    background-color: #63458a;
+    border-radius: 10px;
 }
+
+.maravilhosas__perfil a img {
+    transition: all .5s;
+}
+
+
+.maravilhosas__perfil a:hover {
+    text-decoration: underline;
+}
+
+.maravilhosas__perfil a:hover img {
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
 
 /* =====================FOOTER========================= */
 
@@ -238,58 +254,75 @@ border: 2px solid #63458A;
     border-radius: 5px;
 }
 
+/* --- FOOTER --- */
 .rodape {
     background-color: #323534;
-    padding: 30px;  
-    }
-
-.rodape_links {
-    font-size: 12px;
-    line-height: 30px;
+    color:white;
+    font-size: .9rem;
     display: flex;
-    flex-direction: column;   
-    justify-content: center;
-    align-items: center; 
-}
-
-.link {
-    color: #fffcf7;  
-    text-decoration: none; 
-}
-
-.rodape_logo {
-    width: 150px;
-    margin-top: 20px;
-}
-
-.rodape_img-logo {
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .rodape__principal > * {
+    margin: 1rem 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .rodape__navegacao a {
+    transition: all .5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+  }
+  
+  .rodape__redes-sociais a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 5px;  
-}
-
-.facebook {
-    color: #fffcf7;
-    font-size: 10px;
+    transition: all .5s;
+  }
+  
+  .rodape__redes-sociais a:hover {
+    color: #C083B9;
+  }
+  
+  .rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .rodape__redes-sociais span {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.img_facebook {
-    height: 15px;
-}
-
-.rodape_final {
-   background-color: #292A2A;
-   color: #fffcf7;
-   font-size: 7px;
-   text-align: center; 
-   padding-bottom: 3px;
-   padding-top: 5px;
-}
-
+    font-size: 1.5rem;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
 /*** MEDIA QUERIES ***/
 /* TABLET */
 
@@ -457,6 +490,12 @@ border: 2px solid #63458A;
   margin-right: 15px;
   max-width: 35%;
   flex-wrap: wrap;
+}
+.maravilhosas__box {
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    color: #63458a;
 }
 
 }
