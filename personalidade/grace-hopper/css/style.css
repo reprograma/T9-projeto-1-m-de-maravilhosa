@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; 
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+main{
+    color: #63458a;
+
+}
+
+.nav {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.nav__img {
+    max-width: 200px;
+}
+
+.menu {
+    display: none;
+}
+
+
+
+.menu__hambuguer {
+  border-radius: 5px;
+}
+
+.header {
+    min-height: 80vh;
+    max-height: 500px;
+    background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../img/grace-hopper-perfil.jpg) no-repeat center left / cover;
+    display:flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    background-position-x: -100px;
+}
+
+.header__title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.about__title {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about__box__img {
+    max-width: 200px;
+    max-height: 211px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.about__img {
+  width: 100%;
+    
+}
+
+.about__paragraph, .history__paragraph  {
+    font-size: 1.6rem;
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+
+.quote {
+    border: 1px solid #674582;
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.history__title {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+}
+
+.history__box__img {
+    max-width: 960px;
+    max-height: 350px;
+    overflow: hidden;
+    margin:20px;
+}
+
+.history__img {
+    width:100%;
+}
+
+.author {
+    background-color:  #E4B7E5;
+    max-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.author__box__img {
+    background-color: #aaa;
+    width: 150px;
+    height: 150px;
+    margin: 0 15px;
+    overflow: hidden;
+    position: relative;
+  
+}
+
+.author__img{
+  position: absolute;
+      top: -50px;
+  width: 100%;
+}
+
+.author__paragraph, .author__github {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.btn__box {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.btn__home {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 44px;
+    background: #C083B9;
+    border-radius: 10px;
+    padding: .6rem 3rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+  }
+  
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .footer__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+  }
+  
+  .footer__menu a:hover {
+    color: #C083B9;
+  }
+  
+  .footer__logo__img {
+    max-width: 200px;
+  }
+  
+  .footer__mediasocial a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+  }
+  
+  .footer__mediasocial a:hover {
+    color: #C083B9;
+  }
+  
+  .footer__mediasocial img {
+    max-width: 10px;
+    margin-right: .5rem;
+  }
+  
+  .footer__mediasocial span {
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  .footer__text {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+
+  @media screen and (min-width: 768px) {
+
+    .menu {
+        display: flex;
+    }
+
+    .menu__hambuguer{
+        display: none;
+    }
+
+    .menu__item  {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        align-items: center;
+        font-size: 1.2rem
+    }
+
+    .menu__item__link, .menu__mediasocial a {
+      padding: 0 5px;
+    }
+
+    .menu__item__link:hover {
+        color: #C083B9
+    }
+
+    .header {
+        background-position-x: 0;
+    }
+
+    .header__title{
+        font-size: 3rem;
+    }
+   .about {
+    display: flex;
+    flex-direction: row;
+   
+   }
+   .about__title {
+    display: block;
+    width: 100%;
+    font-size: 2.6rem;
+   }
+
+   .about__paragraph {
+    text-align: left;
+    font-size: 1.8rem;
+    width: 68%;
+  }
+   
+   .quote{
+    width: 95%;
+   }
+
+   .history__title{
+    padding: 10px 0;
+    font-size: 2.5rem;
+    margin: 30px 0 0 0;
+   }
+
+   .history {
+    padding: 20px;
+   }
+
+   .history__paragraph {
+       padding: 0;
+       text-align: left;
+       font-size: 1.8rem;
+   }
+
+   .author__box__img {
+       max-width: 200px;
+       max-height: 200px;
+   }
+
+   .author__img{
+        top: -80px;
+
+  }
+
+   .footer {
+    padding-top: 0;
+   }
+
+   .footer__box {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__logo__img {
+    max-width: 250px;
+}
+
+.footer__menu > li {
+    font-size: 1.5rem;;
+}
+
+  }
+
+
+
+  @media screen and (min-width: 1024px) {
+
+    .header {
+        background-position: center top;
+    }
+
+    .about__paragraph {
+        text-align: left;
+        font-size: 2rem;
+        width: 70%;
+      }
+
+    .history__box__img{
+        width: 100%;
+    }
+
+    .menu__item {
+        margin: 20px;
+    }
+
+    
+ 
+}

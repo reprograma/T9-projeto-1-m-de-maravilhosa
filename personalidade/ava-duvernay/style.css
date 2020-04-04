@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.menu_hamburguer {
+    padding: 10px;  
+}
+
+.menu_icon {
+    display: none;
+}
+
+.links_home {
+    display: none;
+}
+
+.personalidade {
+    background: url(img/ava-duverany.jpg);
+    height: 200px;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+nav {
+    background: #674582;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    
+}
+
+article {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.titulo_1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil_img {
+    height: 250px;
+    border-radius: 100%;
+    
+}
+
+p, .perfil_img, h2, h3 {
+    margin: 12px;
+}
+
+h3 {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.historia {
+    width: 100%;
+}
+
+section {
+    background-color: #E4B7E5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;  
+}
+
+.autora {
+    display: flex;
+    align-items: center;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.img_autora {
+    height: 130px;
+    width: 130px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: #E4B7E5;
+    color: white;
+    padding: 12px;
+    margin: 30px;
+}
+    
+
+footer{
+    background-color: rgba(0, 0, 0, 0.808);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.img_footer {
+    width: 190px;
+}
+
+.logo_fb {
+    width: 15px;
+}
+
+
+@media (min-width: 730px){
+    header {
+        background-color: #674582;
+    }
+    nav {
+        display: flex;
+        margin: 0 auto;
+        width: 55%;        
+    }
+
+    .menu_icon, .links_home ul li {
+        display: inline; 
+    }
+
+    .links_home {
+        display: flex;
+    }
+
+    .menu_hamburguer {
+        display: none;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;    
+    }
+
+    li {
+        list-style: none;
+        font-size: 12px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+
+    .logo_home {
+        width: 70%;
+    }
+
+    article {
+        width: 70%;
+    }
+
+    .personalidade {
+        height: 400px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+   
+    h2, .historia, p {
+        margin: 22px;
+    }
+
+    h3 { 
+        text-align: center;
+    }
+
+     .autora {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 20%;
+    }
+        
+    footer ul {
+        display: flex;
+        align-items: center;
+    }
+
+    footer ul li {
+        padding: 10px;
+    }
+
+}
+
+
