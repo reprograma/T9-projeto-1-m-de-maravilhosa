@@ -1,0 +1,25 @@
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+    .principal {
+        max-width: 650px;
+    }
+  }
+  
+
+@media (min-width: 1440px) {
+    .navegacao__box {
+        max-width: 80%;
+    }
+    .header {
+        min-height: 90vh;
+        text-align: center;
+    }
+    .navegacao__itens li {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+    }
+    .principal {
+        max-width: 650px;
+    }
+  }
