@@ -194,8 +194,6 @@ border-radius: 10px;
 transition: all .5s;
 }
 
-
-
 .maravilhosas__perfil a:hover {
 text-decoration: underline;
 }
@@ -271,11 +269,11 @@ opacity: 0.5;
 text-align: center;
 }
 
-  .navegacao__nav {
+ .navegacao__nav {
       margin-bottom: 0;
   }
   
-  .navegacao__itens ul {
+ .navegacao__itens ul {
       display: flex;
       justify-content: space-around;
       width: 100%;
@@ -298,9 +296,10 @@ text-align: center;
   }
 
 
-  main{
+  main {
   color: #674582;
   }
+
 .titulo-bafao{
   text-align: center;
   font-size: 36px;
@@ -348,13 +347,6 @@ text-align: center;
   width: 440px;
 }
 
-.autora-container{
-
-}
-
-.autora{
-
-}
 
 .caixa-lilas{
 width: 100%;
@@ -390,10 +382,6 @@ text-transform: uppercase;
 border-radius: 10px;
 color: white;
 }
-
-.btn{
-
-} 
 
 
 /*** MEDIA QUERIES ***/
