@@ -10,7 +10,7 @@ Professora: Priscila Theodoro
 - **03/04**: Finalização e Apresentação.
 
 ## Projeto
-Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela.
+Escolha um personlidade Maravilhosa que te inspira para criar uma página de perfil dela. OK
 
 ### Requisitos obrigatórios:
 1. A página deve ser responsiva;
@@ -29,19 +29,19 @@ Seguir o layout presente no [link](https://www.figma.com/file/XBEywzd2yF47RaWm0G
 ## Orientações
 ### Copiar os arquivos do repositório da {reprograma}
 
-1. Fazer o _fork_ desse repositório;
+1. Fazer o _fork_ desse repositório; OK
 
-2. Fazer o _clone_ do projeto no seu repositório criado através do fork;
+2. Fazer o _clone_ do projeto no seu repositório criado através do fork; OK
 ``` 
-git clone "url do seu reposiório"
+git clone "url do seu reposiório" OKK
 ```
-3. Criar um branch com o seu nome, ex:
+3. Criar um branch com o seu nome, ex: OK
 ```
-git checkout -b seu-nome
+git checkout -b seu-nome OK
 ```
-4. Após o clone, abrir o projeto e ler com atenção o código do projeto.
+4. Após o clone, abrir o projeto e ler com atenção o código do projeto. OK
 
-5. Criar a arquitetura de pastas seguindo o padrão abaixo. 
+5. Criar a arquitetura de pastas seguindo o padrão abaixo.  OK
 
 **ATENÇÃO** -  *Este padrão não deve ser alterado*
 
@@ -61,7 +61,7 @@ personalidade/
     img/
       ada-lovelace-perfil.jpeg
       al-bg.jpeg
-      al-historia.png
+      
 
 autora
   seu-nome/
@@ -69,24 +69,24 @@ autora
     css/
       style.css
     img/
-    seu-nome-perfil.png
+      seu-nome-perfil.png
 ```
 
-**Personalidade:** É a pasta na qual será criado o html, css e imagens da maravilhosa escolhida.
+**Personalidade:** É a pasta na qual será criado o html, css e imagens da maravilhosa escolhida. OK
 
-**Autora:** É a pasta na qual será criado o html, css e imagens de seu próprio perfil (opcional).
+**Autora:** É a pasta na qual será criado o html, css e imagens de seu próprio perfil (opcional). -
 
 **Index principal** é o arquivo com todas as personalidades maravilhosas escolhidas pela turma, no qual cada aluna deverá editar apenas as informações para adicionar sua personalidade.
 
 *ATENÇÃO* 
 1. Para o **index.html**, você deve colocar uma imagem quadrada da personalidade na pasta **img/home-personalidade** 
-2. O site deve conter no total **3 páginas** (homepage, que já está pronta, personalidade e autora) 
+2. O site deve conter no total **3 páginas** (homepage, que já está pronta, personalidade e autora) -
 
 
 ## COMMIT
 
-É boa prática realizar commits das alterações realizadas. 
-Diariamente entre às 16h e 16h30 realizar commit das alterações realizadas localmente no projeto.
+É boa prática realizar commits das alterações realizadas. -
+Diariamente entre às 16h e 16h30 realizar commit das alterações realizadas localmente no projeto. -
 **Atenção** Deve ser realizado ao menos um commit por dia, caso prefira pode realizar mais commits.
 
 ### Fazendo um commit

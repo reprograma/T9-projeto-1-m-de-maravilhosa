@@ -1,0 +1,297 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- GERAL --- */
+/*
+unidades preferidas para esse CSS
+margin, padding: rem
+font-size: rem
+width: %
+max-width: % ou px
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* --- NAV --- */
+.navegacao {
+  background-color: #674582;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 1.5rem;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+  justify-content: flex-start;
+}
+.navegacao__itens {
+  margin: 0;
+  display:flex;
+  }
+
+.navegacao__nav {
+  display:flex;
+  justify-content: flex-start;
+  margin-left: 3rem;
+}
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+
+}
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+    
+}
+.navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+
+/* HEADER*/
+.header {
+  min-height: 80vh;
+  height: 500px;
+  background: linear-gradient(rgba(255, 0, 255, 0.2),
+                                rgba(255, 0, 255, 0.2)),
+                url(../../personalidade/img/foto\ dorina\ header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 11rem 2rem 5rem 2rem;
+  justify-content: center;
+}
+.div__maior {
+  position:absolute;
+}
+.principal {
+  align-items: center;
+}
+.principal__h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  width: 600px;
+  height: 88px;
+  left: 660px;
+  top: 527px;
+}
+
+  /*Footer*/
+/*footer*/
+.f-footer {
+  height: 30px;
+  margin-right: 30px;
+}
+
+.navegacao__itens{
+  display:flex;
+}
+
+.navegacao__itens-footer {
+  display:flex;
+  padding:50px;
+  background-color: #323534;
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.creative-commons {
+  text-align: center;
+  background: #292A2A;
+  color:white;
+  padding:1px;
+  margin:0;
+}
+
+
+/*Texto do corpo*/
+
+.conteudo__todo {;
+  color: #674582;
+  padding: 75px;
+  font-size: 15px;
+  display:flex;
+  align-content: center;
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 110px;
+}
+.h2__conteudotodo {
+  display: flex;
+  color: #674582;
+  padding: 25px;
+  font-size: 15px;
+  justify-content: center;
+  margin-top: 73px;
+  margin-bottom:0;
+}
+.paragrafo1__conteudotodo{
+  padding: 10px;
+  margin-right: 282px;
+  margin-left: 0;
+  align-content: center;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+  .img__conteudotodo {
+  margin-right: -16px;
+  width: 210px;
+}
+.citacao__texto {
+  color: #674582;
+  font-size: 15px;
+  display:flex;
+  align-content: center;
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 600;
+  text-align:center;
+}
+.citacao__borda {
+  border: 1px solid #442b58;
+  margin-right: 350px;
+  margin-left: 235px;
+  padding:45px;
+}
+
+.conteudo__texto {
+  color: #674582;
+  padding: 150px;
+  font-size: 15px;
+  display:flex;
+  align-content: center;
+  margin-top: 0;
+  margin-right: 15px;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.img_meio {
+  padding:30px;
+  align-content: center;
+  margin-left: 280px;
+  width: 500px;
+}
+
+
+/* Parte Rosa AUTORA*/
+.autora {
+  display:flex;
+  justify-content: center;
+  background-color: #E4B7E5;
+  color:#63458A;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0;
+  font-style:normal;
+}
+
+.paragrafo-autora {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.foto-gabi {
+  max-width: 135px;
+  max-height: 135px;
+}
+.botao-space {
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+}
+.obotao {
+    background: #C083B9;
+    border: none;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+/*.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__itens {
+  position: absolute;
+  right: -700px;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  background-color: #674582;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 1s;
+}
+
+.navegacao__itens li > a {
+  transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+  color: #C083B9;
+}
+*/
