@@ -157,6 +157,7 @@ article {
 
 .perfil__img {
     height: max-content;
+    align-items: baseline;
 }
 
 .img-side {
@@ -222,6 +223,7 @@ article {
     height: max-content;
     float: right;
     border: 2px solid #63458A;
+    align-items: baseline;
 }
 
 .campanha {
