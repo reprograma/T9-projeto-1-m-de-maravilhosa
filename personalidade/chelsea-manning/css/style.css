@@ -422,9 +422,13 @@ article {
     article {
         margin: 0% 5%;
     }
-
+    
+    .img-side {
+    max-height: 100px;
+}
     .historia__img {
-        height: max-content;
+        width: 130px;
+        max-height: 100px;
     }
 
     .autora__box {
