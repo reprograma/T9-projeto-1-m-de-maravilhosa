@@ -346,7 +346,9 @@ article {
         width: 40px;
     }
 
-
+    .img-side {
+        max-width: 100%;
+    }
 
     .perfil {
         flex-direction: column;
@@ -359,6 +361,7 @@ article {
 
     .historia__img {
         float: none;
+        width: 100%;
     }
 
     .campanha {
@@ -420,18 +423,12 @@ article {
         margin: 0% 5%;
     }
 
-    .perfil__img {
-        height: max-content;
-        width: 75%;
-    }
-
     .historia__img {
         height: max-content;
-        width: 75%;
     }
 
-    .autora__img {
-        max-height: 100px;
+    .autora__box {
+        height: max-content;
     }
 
     .fontes {
