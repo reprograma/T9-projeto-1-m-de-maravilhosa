@@ -72,7 +72,6 @@ display: none;
 .navegacao__menu-hamburguer{
 display:block;
 margin: 20px;
-width: 10px;
 }
 
 .navegacao__logo {
@@ -108,6 +107,7 @@ color: #C083B9;
 .navegacao__menu-hamburguer img {
 background-color: #C083B9;
 border-radius: 5px;
+width: 5px;
 }
 
 .navegacao__nav {
