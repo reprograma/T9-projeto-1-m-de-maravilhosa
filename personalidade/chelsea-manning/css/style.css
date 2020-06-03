@@ -151,21 +151,18 @@ article {
 .perfil {
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
     text-align: justify;
     padding: inherit;
 }
 
-.perfil__img {
-    height: max-content;
-}
 
 .img-side {
-    max-width: 280px;
-    height: max-content;
-    border-radius: 15px;
-    margin: 1rem;
-}
+    width: 50%;
 
+    border-radius: 15px;
+    
+}
 
 .main__text {
     font-style: normal;
@@ -213,14 +210,13 @@ article {
     font-size: italic;
     text-decoration: underline;
 }
+
 .historia {
     padding: 2rem;
 }
 
 .historia__img {
-    max-width: 250px;
-    height: max-content;
-    float: right;
+    width: 75%;
     border: 2px solid #63458A;
 }
 
@@ -233,8 +229,7 @@ article {
 }
 
 .aside__img {
-    max-width: 400px;
-    height: max-content;
+    width: 50%;
 }
 
 .aside__text {
@@ -327,12 +322,21 @@ article {
         font-size: 9px;
     }
 
-    .img-side {
-        max-width: 180px;
+    .container { 
+        display: flex;
+        flex-wrap: wrap;
     }
 
     header {
         margin-top: 70px;
+    }
+
+    .aside__img__box {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .aside__img {
+        width: 100%;
     }
 }
 
@@ -344,34 +348,6 @@ article {
     .navegacao__menu-hamburguer img  {
         display: flex;
         width: 40px;
-    }
-
-    .img-side {
-        max-width: 100%;
-    }
-
-    .perfil {
-        flex-direction: column;
-    }
-
-    .historia {
-        display: flex;
-        flex-flow: column wrap-reverse;
-    }
-
-    .historia__img {
-        float: none;
-        width: 100%;
-    }
-
-    .campanha {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .aside__img__box {
-        flex-direction: column-reverse;
-        width: 100%;
     }
 }
 
@@ -388,9 +364,6 @@ article {
         max-height: 150px;
     }
 
-    .aside__img {
-        max-width: 250px;
-    }
 
     .footer__box {
         height: 120px;
@@ -421,14 +394,6 @@ article {
 
     article {
         margin: 0% 5%;
-    }
-    
-    .img-side {
-    max-height: 100px;
-}
-    .historia__img {
-        width: 130px;
-        max-height: 100px;
     }
 
     .autora__box {
