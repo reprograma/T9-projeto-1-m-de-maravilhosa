@@ -105,10 +105,10 @@ img {
 /* --- HEADER --- */
 header {
     margin-top: 100px;
-    height: 320px;
+    height: 300px;
     width: 100%;
     background: linear-gradient(rgba(255, 0, 255, 0.1),
-                                rgba(255, 0, 255, 0.5)),
+                                rgba(255, 0, 255, 0.7)),
                 url(../img/liana-e-clau.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,6 +122,7 @@ header {
     font-weight: 700;
     font-size: 3.8rem;
     color: #FFFFFF;    
+    text-transform: uppercase;
     align-self: flex-end;
     text-align: center;
 }
@@ -150,33 +151,16 @@ article {
 .perfil {
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
     text-align: justify;
     padding: inherit;
 }
 
-.perfil__img {
-    height: max-content;
-}
 
 .img-side {
-    max-width: 280px;
-    height: max-content;
+    width: 50%;
     border-radius: 15px;
-    margin: 1rem;
-}
-
-.perfil__dados__autora {
-    margin: 1.5rem 0;
-    padding: 1rem;
-    display: flex;
-    flex-flow: wrap;
-}
-
-.perfil__dados__autora__type {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-    font-size: 1.6rem;
+    
 }
 
 .main__text {
@@ -202,7 +186,6 @@ article {
     height: max-content;
 }
 
-
 .citacao {
     border: 1px solid #63458A;
     padding: 2rem;
@@ -226,83 +209,15 @@ article {
     font-size: italic;
     text-decoration: underline;
 }
+
 .historia {
-    padding: 2rem;
+    padding: 3rem;
+    margin: 2rem;
 }
 
 .historia__img {
-    max-width: 250px;
-    height: max-content;
-    float: right;
+    width: 75%;
     border: 2px solid #63458A;
-}
-
-.campanha {
-    display: inline-block;
-}
-
-.aside__img__box {
-    display: flex;
-}
-
-.aside__img {
-    max-width: 400px;
-    height: max-content;
-}
-
-.aside__text {
-    max-width: 400px;
-}
-
-.autora {
-    background: #E4B7E5;
-    background-size: cover;
-    margin: 5rem 0; 
-}
-
-.autora__box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 220px;
-    
-}
-
-.autora__img {
-    max-height: 215px;
-    margin: 0 2rem;
-}
-
-
-.autora__info__list__link {
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 3rem;
-    margin: 0 2rem;
-}
-
-.btn__container {
-    display: flex;
-    justify-content: center;
-
-}
-
-.btn__design {
-    color: #fff;
-    font-size: 1.6rem;
-    padding: 1rem;
-    height: max-content;
-    text-align: center;
-    text-transform: uppercase;
-    background: #C083B9;
-    border-radius: 10px;
-    margin-bottom: 5rem;
-}
-
-.fontes {
-    color: purple;
-    margin:0;
 }
 
 .footer__box {
@@ -340,12 +255,21 @@ article {
         font-size: 9px;
     }
 
-    .img-side {
-        max-width: 180px;
+    .container { 
+        display: flex;
+        flex-wrap: wrap;
     }
 
     header {
         margin-top: 70px;
+    }
+
+    .aside__img__box {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .aside__img {
+        width: 100%;
     }
 }
 
@@ -357,43 +281,6 @@ article {
     .navegacao__menu-hamburguer img  {
         display: flex;
         width: 40px;
-    }
-
-
-
-    .perfil {
-        flex-direction: column;
-    }
-
-    /*imagem turma*/
-
-    .citacao {
-        display: flex;
-        flex-direction: column;
-        max-width: 360px;
-        
-        height: 100px;
-        border: 0;
-
-    }
-
-    .historia {
-        display: flex;
-        flex-flow: column wrap-reverse;
-    }
-
-    .historia__img {
-        float: none;
-    }
-
-    .campanha {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .aside__img__box {
-        flex-direction: column-reverse;
-        width: 100%;
     }
 }
 
@@ -410,10 +297,6 @@ article {
         max-height: 150px;
     }
 
-
-    .aside__img {
-        max-width: 250px;
-    }
 
     .footer__box {
         height: 120px;
@@ -446,8 +329,8 @@ article {
         margin: 0% 5%;
     }
 
-    .autora__img {
-        max-height: 100px;
+    .autora__box {
+        height: max-content;
     }
 
     .fontes {
